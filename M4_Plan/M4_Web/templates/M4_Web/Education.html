@@ -1,0 +1,790 @@
+{% extends 'M4_Web/base.html' %}
+{% block title %} {% endblock %}
+{% load static %}
+
+{% block body %}
+
+
+    <script async="" src="./Education_files/analytics.js.download"></script><script id="twitter-wjs" src="./Education_files/widgets.js.download"></script><script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 500) {
+                    $(".header").addClass('smaller');
+                } else {
+                    $(".header").removeClass("smaller");
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        window.addEventListener('mouseup', function (event) {
+            var box = document.getElementById('info');
+            var box1 = document.getElementById('bg-effect');
+            if (event.target != box && event.target.parentNode != box) {
+                box.style.display = 'none';
+                box1.style.display = 'none';
+            }
+        });
+</script>
+   <style>
+   .header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: fixed;
+
+    z-index: 999;
+    background-image:url('images/gradient2.jpg');
+    border:solid;
+ border-bottom-width :3px;
+border-image:url('images/line.png') 0 0 20 0 repeat;
+
+}
+.header h1#logo {
+    display: inline=block;
+    vertical-align:top;
+   font-size: 60px;
+    line-height: 150px;
+    font-weight: 400;
+
+
+}
+
+.header ul
+{
+
+ height:180px;
+font-family:Sans-Serif;
+
+}
+.header li a {
+
+
+   color: #D3D3D3;
+   font-size: 14px;
+
+   line-height:25px;
+   padding-top:10px;
+
+   font-family:Sans-Serif;
+
+
+
+}
+.header li a:hover{color:#109276;  text-decoration:none;}
+.header nav {
+    display: inline=block;
+
+}
+.header nav a {
+
+    color: #D5D5D5;
+    font-weight: 700;
+    font-size: 14px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header span {
+    display: inline=block;
+    float:left;
+    margin-right:0px;
+}
+.header span a {
+    line-height: 150px;
+    margin-left:10px;
+    color: #D5D5D5;
+    font-weight:normal;
+    font-size: 14px;
+    font-family:Sans-Serif;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header nav a:hover {
+    color: white;
+}
+.header.smaller {
+    height: 75px;
+}
+.header.smaller h1#logo {
+    width: 150px;
+    height: 75px;
+    font-size: 30px;
+}
+.header.smaller nav a {
+    line-height: 75px;
+}
+
+
+   </style>
+
+      <style type="text/css">
+ .black_overlay
+  {
+            height: 130%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            background-color: Black;
+            filter: alpha(opacity=80); /* internet explorer */
+            -khtml-opacity: 0.80; /* khtml, old safari */
+            -moz-opacity: 0.80; /* mozilla, netscape */
+            opacity: 0.80;
+
+        }
+        #info {
+           position: absolute;
+            top: 1%;
+            z-index: 1002;
+            vertical-align:middle;
+
+           }
+</style>
+
+    <script type="text/javascript">
+        window.addEventListener('mouseup', function (event) {
+            var box = document.getElementById('info');
+            var box1 = document.getElementById('bg-effect');
+            if (event.target != box && event.target.parentNode != box) {
+                box.style.display = 'none';
+                box1.style.display = 'none';
+            }
+        });
+</script>
+<script src="./Education_files/secureAnonymousFramework"></script><script type="text/javascript" charset="utf-8" async="" src="./Education_files/button.7db838345f9545c91ea4497f64abb814.js.download"></script></head>
+<div id="BodyMaster" style="font-family:Sans-Serif;">
+    <form method="post" action="http://technopak.com/Technopak-Education.aspx" id="Form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTIzNjUwNTQ2MWRkorE01ftb5wFOjsFY+bLYRVBHybTy7+FNQx1+uav4y70=">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="621B4CC8">
+</div>
+
+<div align="center" class="main">
+
+    <script type="text/javascript">
+        function assessmentindiaentry() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Market Assessment";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<p>Our experts study the market trends and feasibility to  assist you with the market environment in India. For a profitable entry into the  Indian market, developing India-specific value propositions based on consumer  insights, competition mapping, characteristics, and client objectives are vital.  For  this, we deliver services such as:</p><ul >  <ul style=\"font-size:15px;\">    <li>• Market Potential Assessment</li>    <li>• Competitive        Benchmarking</li>    <li>• Regulatory Environment Assessment</li>    <li>• Business Planning and Marketing Strategy</li>  </ul></ul>";
+        }
+        function partnerassit() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Partnership Assistance";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<p>Based on your business model, we facilitate  tie-ups with suitable business partners. From recognizing potential partners to finalizing MoU, we support you at every step. To help you nurture profitable partnerships, we provide you solutions for: </p><ul >  <ul style=\"font-size:15px;\">    <li>• Partnership Operating Model Development</li>    <li>• Identification of Potential Partners</li>    <li>• Negotiations and Finalization of MoU </li>  </ul></ul>";
+        }
+        function modeling() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Business Modeling";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<p>We follow a robust approach to build models that utilize business understanding with qualitative analysis for reliable decision making. Through in-depth market and consumer understanding, we recommend long term strategies that deliver measurable results with respect to:<strong></strong></p><ul >  <ul style=\"font-size:15px;\">    <li>• Roll-out Planning</li>    <li>• Fee and Revenue Structure</li>    <li>• Operating Model Development</li>    <li>• Financial Modeling</li>    <li>• Risk  Assessment and Mitigation Strategy</li>  </ul></ul>";
+        }
+        function startup() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Start-up Assistance	";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<p>Deep understanding of the Indian market, along with our  industry  expertise makes us your most suitable associate for starting up new ventures in  India. We help you achieve various business objectives through our dynamic and  systematic approach. Our service offerings for start-up assistance include: </p><ul >  <ul style=\"font-size:15px;\">    <li>• Organization Design and Selection</li>    <li>• Vendor Selection</li>    <li>• Location Identification</li>    <li>• Project Management</li>  </ul></ul>";
+        }
+        function operations() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Operations Management";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<p>Overseeing, designing, and redesigning business operations for delivery of services constitute an ongoing  process for every organization. Our services ensure that your business  operations are competent in terms of resource utilization and effective in  terms of customer requirements.  <br>  We develop solutions for  your <strong>business process re-engineering</strong> through analysis and design of  the workflows and processes in your organization. The areas we target include </p><ul>  <ul>    <li>••<em>Service  line reorganization</em></li>    <li>••<em>Patient  flow optimization</em></li>    <li>••<em>Information  flow &amp; management dashboards</em></li>    <li>••<em>Work flow  optimization</em></li>  </ul></ul><p>Our team provides <strong>service management solutions</strong> so as to optimize  your service-intensive supply chains. For increasing your service revenue and  improving customer satisfaction levels, we implement solutions for </p><ul>  <li>••<em>Reporting  &amp; MIS structure</em></li>  <ul>    <li>••<em>Service  quality (Benchmarking)</em></li>    <li>••<em>Clinical  programs improvement &amp; management</em></li>    <li>••<em>Procurement&nbsp;excellence</em></li>    <li>••<em>Inventory  management</em></li>    <li>••<em>Non-clinical  protocols establishment (Operational protocols</em>)</li>  </ul></ul><p>We assist you indentify valuable <strong>partnerships</strong> and <strong>technologies</strong> that empower you to deliver quality outcomes. To make your IT solutions more  collaborative, responsive and secure, we facilitate you with </p><ul>  <ul>    <li>••<em>HIS (Assessment, procurement etc.)</em></li>    <li>••<em>EMR (EHR) &amp; practice management systems</em></li>    <li>••<em>PACS / RIS</em></li>    <li>••<em>Enforcement of regulatory standards and guidelines</em></li>    <li>••<em>Internal  &amp; external integration</em></li>  </ul></ul>"
+        };
+        function revenue() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Revenue Management";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<p>Organizations are highly focused on improving  operational performance and to accomplish it, they reduce costs and capital  bases through restructuring of operations and tightening of supply chains. However,  the most important tool is raising asset turns. Asset productivity holds more  potential than cost cutting and delivers immediate impact on share holder  value. <br>  Our team assists you with </p><ul>  <li>••Revenue optimization</li>  <li>••Driving cost  leadership</li>  <li>••Creating  shareholder value</li>  <li>••Organic and  profitable growth</li>  <li>••Capital allocation  strategies</li></ul><ul>  <li>••<em>Revenue Model Restructuring</em></li></ul><p>Based on correct investment on processes, technology  and staff, a healthcare facility can carve out its own niche in the healthcare sector.  Hospitals strive to maximize the ROI on all resources and determine best rates  for further occasions. We assist you with strategies for effective <strong>revenue  maximization</strong>.<br>  To leverage your strengths and effectively implement  your processes, we create expert <strong>service line strategies</strong> and <strong>cost restructuring</strong>.  Our aim is to develop recommendations for you that allow <strong>optimization</strong> and <strong>improvement</strong> in the diverse sections of your organization. </p><ul>  <li>••<em>Pricing Strategy</em></li></ul><p>Healthcare sector needs to develop pricing  strategies without compromising with the service quality. In the present  healthcare scenario, the rate of increase in costs is far more than the rate of  increase in the revenues. Whether it&rsquo;s a for-profit organization or a  non-profit organization, pricing strategies form a critical component for a healthcare  facility. <br>  For smooth financial management of hospitals, we assist  you with various pricing strategies like </p><ul>  <ul>    <li>••<em>Competition  based pricing</em></li>    <li>••<em>Cost plus  pricing</em></li>    <li>••<em>Value  based pricing</em></li>    <li>••<em>Price Sensitivity</em></li>  </ul></ul>";
+        }
+        function quality() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Quality Management	"; document.getElementById("cnt_textarea_r3").innerHTML = "<p>Organizations are required to focus on the quality of their products and services as well as on the means to achieve it. Quality management includes quality measurement, quality improvement, quality accreditation & certification, establishing clinical protocols and implementing evidence based medicine. The main motive of quality management in the healthcare sector is to improve the quality of patient care in the hospitals.At Technopak, we understand your needs for quality management and how to enhance it. Our services include <br><br>•<strong>Quality Measurement</strong>: To provide both quantitative and qualitative information on every quality dimension, we benchmark your business performance against national as well as international standards; create balanced score cards; study customer feedback; and perform e-measurement of services.<br><br>•<strong>Quality improvement</strong>: To improve the quality of services and processes, we identify and employ strategies like Six-Sigma. We also assist in continual improvement projects and sustenance. <br><br>•<strong>Quality accreditation & certification assistance</strong>: To help construct critical pathways and wide range of care guidelines, we enhance your readiness in obtaining NABH & JCI accreditation and ISO certification. <br><br>•<strong>Clinical protocols & evidence based medicine</strong>: To guide you with decisions regarding choosing and implementing the most suitable Evidence Based Medicine systems for your organization. </p>";
+        }
+        function impact() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Impact Assessment"; document.getElementById("cnt_textarea_r3").innerHTML = "<p> The team works  closely with you to come up with strategies that help you accomplish your goals. We help you assess your projects,  programs, and policies for their economic viability, social equitability, and environmental  sustainability.  <br>  <br> Solution examples include: </p><ul type=\"square\">  <ul style=\"font-size:15px;\">    <li>• Assessment of schemes and policies to increase effectiveness</li>    <li>• Audit of projects</li>    <li>• Advisory on course to meet objectives</li>  </ul></ul>";
+        }
+        function advisory() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Capital Advisory"; document.getElementById("cnt_textarea_r3").innerHTML = "<p>Our global reach, financial acumen, and research  expertise has enabled us to provide capital advisory services on mergers & acquisitions as well as fundraising. We support your  business strategies and execution through comprehensive capital advisory  services such as:</p><ul type=\"square\">  <ul type=\"disc\" style=\"font-size:15px;\">    <li>• Due Diligence – Business </li>        <li>• Fundraising</li>  </ul></ul>";
+        }
+        function partnership() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Partnerships";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<p>We  enable you to identify and create national and international partnerships  across various segments of the education industry. To develop strategies that lead  to fruitful collaborations and healthy relationships, we facilitate you with:</p><ul style=\"font-size:15px;\">  <li>• Partnership Structuring</li>  <li>• Due Diligence of Partners</li>  <li>• Negotiations for JVs and Management Contracts</li></ul>";
+        }
+        function implementation() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Implementation"; document.getElementById("cnt_textarea_r3").innerHTML = "<ul >  <li>The  implementation phase puts the business strategy into action. Our team guides  you in leveraging business operations and industry expertise and supports your  project from its conceptualization to its commissioning stages. We assist you through:<li>• Project Management and Program Co-ordination</li>  <li>• Support for setting up Infrastructure</li> <li>• Product Conceptualization and Development</li> <li>• Support in Hiring Leadership Team</li>  </li> <br></ul>";
+        }
+        function strategy() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Business Strategy ";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<p>We provide you assistance in developing value-generating strategies that are based on consumer insights, competition mapping,  international benchmarking, and client capabilities. To enable you to create a  comprehensive business plan, we deliver a number of strategic recommendations including: </p><ul>  <ul style=\"font-size:15px;\">    <li>• Entry Strategy</li>    <li>• Organic and Inorganic Growth Strategy</li>    <li>• Financial and Operational Modeling</li>    <li>• Marketing Strategy </li>  <li>• Innovation Strategy </li>  </ul></ul> ";
+        }
+        function ClientList() {
+            document.getElementById("cnt_textarea_r1").style.display = "none";
+            document.getElementById("cnt_textarea_r2").style.display = "none";
+            document.getElementById("cnt_textarea_r3").innerHTML = document.getElementById("DivClientList").innerHTML;
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+        function Team() {
+            document.getElementById("cnt_textarea_r1").style.display = "none";
+            document.getElementById("cnt_textarea_r2").style.display = "none";
+            document.getElementById("cnt_textarea_r3").innerHTML = document.getElementById("DivEducationTeam").innerHTML;
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+        function IndustrySegment() {
+            document.getElementById("cnt_textarea_r1").style.display = "none";
+            document.getElementById("cnt_textarea_r2").style.display = "none";
+            document.getElementById("cnt_textarea_r3").innerHTML = document.getElementById("DivIndustrySegment").innerHTML;
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+        function Resources() {
+            document.getElementById("cnt_textarea_r1").style.display = "none";
+            document.getElementById("cnt_textarea_r2").style.display = "none";
+            document.getElementById("cnt_textarea_r3").innerHTML = document.getElementById("DivResources").innerHTML;
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script type="text/javascript" src="./Education_files/1.js.download"></script>
+    <script type="text/javascript" src="./Education_files/slides.min.jquery.js.download"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#slides').slides({
+                preload: true,
+                preloadImage: 'img/loading.gif',
+                play: 3000,
+                pause: 1000,
+                hoverPause: true,
+                animationStart: function (current) {
+                    $('.caption1').animate({
+                        top: 258
+                    }, 200);
+                    $('.caption').animate({
+                        top: 769
+                    }, 200);
+                },
+                animationComplete: function (current) {
+                    $('.caption1').animate({
+                        top: 258
+                    }, 200);
+                    $('.caption').animate({
+                        top: 769
+                    }, 200);
+                },
+                slidesLoaded: function () {
+                    $('.caption1').animate({
+                        top: 258
+                    }, 200);
+                    $('.caption').animate({
+                        top: 769
+                    }, 200);
+                }
+            });
+        });
+    </script>
+
+    <link href="./Education_files/tpkEducation.css" rel="stylesheet" type="text/css">
+    <div id="cnt_outer" style="padding-top:200px; font-family:Sans-Serif;">
+        <div id="cnt">
+            <div id="cnt_s" class="fl">
+            </div>
+            <div id="cnt_image" class="fl">
+                <div class="caption" align="left" style="margin-top: -48px; top: 769px;">
+                    <ul>
+                        <li style="padding-top: 10px;">| &nbsp;<a href="javascript:Resources();">Resources</a></li>
+                        <li>| &nbsp;<a href="http://technopak.com/Files/Technopak-Education-Credentials-March%202018.pdf">Credentials</a></li>
+                        <li>| &nbsp;<a href="javascript:ClientList();">Client List</a></li>
+                        <li>| &nbsp;<a href="javascript:Team();">Technopak's Education Team</a></li>
+                        <li>| &nbsp;<a href="javascript:IndustrySegment();">Industry Segments We Serve</a></li>
+                    </ul>
+                </div>
+                <div id="container">
+                    <div id="example">
+                        <div id="slides">
+                            <div class="slides_container" style="overflow: hidden; position: relative; display: block;">
+                                <div class="slides_control" style="position: relative; width: 1350px; height: 661px; left: -659.787px;"><div class="slide" style="position: absolute; top: 0px; left: 450px; z-index: 0; display: none;">
+                                    <img border="0" src="./Education_files/Education3.jpg" width="450" height="662" alt="Slide 1"></div><div class="slide" style="position: absolute; top: 0px; left: 450px; z-index: 5; display: block;">
+                                    <img border="0" src="./Education_files/Education2.jpg" width="450" height="662" alt="Slide 2"></div><div class="slide" style="position: absolute; top: 0px; left: 900px; z-index: 0; display: block;">
+                                    <img border="0" src="./Education_files/Education1.jpg" width="450" height="662" alt="Slide 3"></div></div>
+
+
+                            </div>
+                        <ul class="pagination"><li class=""><a href="http://technopak.com/Technopak-Education.aspx#0">1</a></li><li class=""><a href="http://technopak.com/Technopak-Education.aspx#1">2</a></li><li class="current"><a href="http://technopak.com/Technopak-Education.aspx#2">3</a></li></ul></div>
+                    </div>
+                </div>
+            </div>
+            <div id="cnt_textarea" class="fl">
+                <div id="cnt_textarea_r1" class="fl">
+                    <table width="600" border="0">
+                        <tbody><tr>
+                            <td colspan="2">
+                                <ul>
+                                    <li class="size"><h1 style="font-size:14px; font-weight:bold; font-family:Sans-Serif;">SERVICES WE OFFER IN EDUCATION</h1></li></ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 12px; font-weight: bold; font-family:Sans-Serif;">
+                                SERVICES
+                            </td>
+                            <td style="padding-left: 50px; vertical-align: top; padding-top: 0px;
+                                font-size: 12px; font-weight: bold; font-family:Sans-Serif;">
+                                INDIA ENTRY<font style="font-size:18px; vertical-align:bottom">/</font>OUTBOUND EXPANSION SERVICES
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="200" style="vertical-align: top; font-family:Sans-Serif;  font-size:12px">
+                                <ul>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:strategy()">BUSINESS STRATEGY</a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:implementation()">IMPLEMENTATION</a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:partnership()">PARTNERSHIPS</a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:advisory()">CAPITAL ADVISORY</a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:impact()">IMPACT ASSESSMENT</a></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </td>
+                            <td width="400" style="padding-left: 50px; vertical-align: top; padding-top: 0px; border-left: 1px dotted; font-family:Sans-Serif; font-size:12px">
+                                <ul>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:assessmentindiaentry()">MARKET ASSESSMENT</a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:modeling()">BUSINESS MODELING</a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:partnerassit()">PARTNERSHIP ASSISTANCE</a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:startup()">START-UP ASSISTANCE</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                    <br>
+                </div>
+                <div id="cnt_textarea_r2" class="fl">
+
+                    <div id="cnt_textarea_img" style="color: #3882a0; text-align: left;
+                        float: left; padding-left: 20px; font-family:Sans-Serif; font-size:35px; padding-top:15px; vertical-align: middle;">
+                        Education</div>
+                </div>
+                <div id="cnt_textarea_r3" class="fl">
+                    <p style="font-family:Sans-Serif; font-size:12px">
+                        Education is one of the key elements that define a nation’s infrastructure.
+                        It is considered an attractive and continuously evolving business opportunity. With
+                        severe lack of capacity across all the educational segments (K-12, higher education,
+                        vocational training, and ancillaries), private investments are rapidly becoming
+                        an imperative rather than a choice. Investments lead to high quality education systems
+                        which in turn accelerate a nation towards high GDP growth.
+                        <br>
+                        <br>
+                        Innovative business models and the government's thrust on privatization has led
+                        to assertive participation by private organizations. Such participation can be possible
+                        at various levels of investments and scale of operations. Be it organizations planning
+                        an expansion in the country or foreign institutions aiming to foray into the Indian
+                        education sector, we work closely with our customers to help them execute their
+                        vision and turn it into reality.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="DivClientList" style="display: none; font-family:Sans-Serif;" class="fl">
+
+     <table style=" font-family:Sans-Serif; font-size:13px">
+                        <tbody><tr>
+                            <td colspan="3">
+                                <ul>
+                                    <li align="center"><h1 style="font-size:18px; font-weight:bold; text-decoration:underline; font-family:Sans-Serif;">
+                                    Client List - Education</h1></li><li>&nbsp;</li>
+                                    </ul>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="200" style="vertical-align: top; font-family:Sans-Serif; display: inline-block; font-size:12px">
+                                   <ul style="line-height:25px; display: inline-block; vertical-align:top;">
+
+                                   <li><a href="http://technopak.com/Technopak-Education.aspx#">Aditya Birla Group</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">AIPL Ambuja</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Alchemist Group</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Arvind</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Axis Bank</a></li>
+<li><a href="http://technopak.com/Technopak-Education.aspx#">BGM Policy Innovation Pvt. Ltd.(IMAX)</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Deepak Fertilizer &amp; Pharmaceutical</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Educomp Solutions</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Excelcius</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">EuroSchool International Pvt. Ltd.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Everonn Education limited</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Everstone Capital</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">GEMS Education</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Godrej Properties</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Greenberry World School</a></li>
+
+
+                                </ul>
+                            </td>
+                            <td width="200" style="border-left:dotted 1px white;  padding-left:10px; vertical-align: top; padding-top: 0px; display: inline-block;  font-family:Sans-Serif; font-size:12px">
+                                <ul style="line-height:25px">
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Greenvalley International School</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Geniusbug Education &amp; Learning</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">GMR Group</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Holidaybreak</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">IDP</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">IDFC Alternatives</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Institutional Excellence Forum</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">JECRC University, Jaipur</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Jus-Scriptum</a></li>
+<li><a href="http://technopak.com/Technopak-Education.aspx#">Kendriya Vidyalaya Sangathan</a></li>
+<li><a href="http://technopak.com/Technopak-Education.aspx#">LGT Impact Ventures</a></li>
+<li><a href="http://technopak.com/Technopak-Education.aspx#">Malabar Developers</a></li>
+
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Massey University, New Zealand</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Manipal Integrated Services</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Ministry of Textiles, Govt. of India</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">MT Educare</a></li>
+                                    </ul>
+                            </td>
+
+                            <td width="215" style="vertical-align: top; border-left:dotted 1px white; padding-left:10px; padding-top: 0px; display: inline-block; font-family:Sans-Serif; font-size:12px">
+                                <ul style="line-height:25px">
+<li><a href="http://technopak.com/Technopak-Education.aspx#">The Mehta Group</a></li>
+<li><a href="http://technopak.com/Technopak-Education.aspx#">Oaktree International School</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Oxford University Press</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Plancess Edusolutions Pvt. Ltd.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Reader's Digest</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Renew Solar Energy Pvt. Ltd.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">S Chand</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Simplilearn</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Shiv Nadar Foundation</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Shripati Technical Services Pvt. Ltd.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Suryakiran T&amp;H, Pvt. Ltd.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">TA Associates</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx#">Takshila Learning</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx">The Charter School</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx">The Times of India Group</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Education.aspx">WOAS Technology Pvt. Ltd.(“Wooqer”)</a></li>
+
+
+
+                                </ul>
+                            </td>
+
+                        </tr>
+                    </tbody></table>
+                    </div>
+    <div id="DivEducationTeam" style="display: none; font-family:Sans-Serif;" class="fl">
+        <table>
+            <tbody><tr>
+                <td>
+                    <h1 style="font-family:Sans-Serif;">
+                        <strong>Team Education<br>
+
+                        </strong>
+                    </h1>
+                    <ul style="font-family:Sans-Serif; font-size:13px">
+                       <li><strong>
+                            <br>
+                            Aurobindo Saxena</strong><br>
+                            Vice President<br>
+                            <a href="mailto:aurobindo.saxena@technopak.com">aurobindo.saxena@technopak.com</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <p>
+                        <br>
+                    </p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        <br>
+                    </p>
+                </td>
+                <td style="padding-left: 10px; padding-top: 35px;">
+                    <p>
+                        &nbsp;</p>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    <div id="DivIndustrySegment" style="display: none; font-family:Sans-Serif;" class="fl">
+        <table style="line-height: 25px;">
+            <tbody><tr>
+                <td>
+                    <p>
+                        </p><h1 style="font-family:Sans-Serif;">
+                            <strong>Industry Segments We Serve</strong></h1>
+                    <p></p>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        <strong>Value-Generating Solutions across the entire Education sector</strong><br>
+                        At Technopak we deliver strategic planning, implementation, and management assistance
+                        to a wide range of educational segments. Our focus is on providing our clients with
+                        strategic recommendations which support them in business advancement.
+                        <br>
+                    </p>
+                    <p style="font-family:Sans-Serif; font-size:12px; font-weight:bold">
+                        Our client segments include:</p>
+                    <ul style="font-family:Sans-Serif; font-size:12px">
+                        <li>• Corporate Houses in India</li>
+                        <li>• Government and Multilateral Bodies</li>
+                        <li>• Educational Institutions and Charitable Trusts</li>
+                        <li>&nbsp; K-12 Segment</li>
+                        <li>&nbsp; Higher Education</li>
+                        <li>&nbsp; Vocational Training</li>
+                        <li>• Companies in the Ancillary Sector</li>
+                        <li>• Private Equity Firms and Investors</li>
+                        <li>• Foreign Institutions entering India</li>
+                         <li>• Indian Institutions entering Foreign Markets</li>
+                         <strong>
+                        </strong>
+                    </ul>
+                    <br clear="all">
+                    <p>
+                        <br>
+                    </p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        <br>
+                    </p>
+                </td>
+                <td style="padding-left: 10px; padding-top: 35px;">
+                    <p>
+                        &nbsp;</p>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    <div id="DivResources" style="display: none; font-family:Sans-Serif;" class="fl">
+        <table>
+            <tbody><tr>
+                <td>
+                    <h1 style="font-family:Sans-Serif;">
+                        <strong>Resources</strong></h1>
+                    <br>
+                    <h2 style="font-family:Sans-Serif; font-size:13px">
+                        This section comprises new and archived publications and pieces written by thought
+                        leaders.
+                    </h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    <div style="font-family:Sans-Serif; font-size:13px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px">
+                            Outlook on India’s Schooling Segment: A Vision for School 4.0</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        Building on the global phenomenon of Industry 4.0, India and the world are in the midst of the fourth Industrial Revolution. The scope, reach and impact of this revolution will affect K-12 Education at its very roots. Set against such a backdrop, Technopak has brought out an “Outlook on India’s Schooling Segment: A Vision for School 4.0”.  The Outlook presents an overview of the global school education sector, elaborates the best practices in school education, narrates the evolution of school education and envisions the futuristic school model (Schools  4.0). It also provides an overview of the Indian school education segment and highlights the current regulations, trends and challenges in the pre-school and K-12 segments in India.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:13px">
+
+
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=514" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                    <div style="font-family:Sans-Serif; font-size:13px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px">
+                            Whitepaper on Digital-Learning</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        Digital-Learning and online certifications open up a gamut of options for students looking to enter both traditional and non-traditional fields. This paper outlines a variety of different drivers and delivery models for students, opportunities and challenges for online education service providers, and emerging trends for the future, keeping in mind current skill gaps and imminent advances in the field of digital-learning.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:13px">
+
+
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=512" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                    <div style="font-family:Sans-Serif; font-size:13px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px">
+                            India Education Trends</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        The education sector is probably the most important sector for our country, and is also one of the most complex sectors with myriad segments and ever-evolving trends. In this document we have undertaken the ambitious and somewhat hazardous task of identifying the key trends across the sector’s various segments.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:13px">
+
+
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=509" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                    <div style="font-family:Sans-Serif; font-size:13px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px">
+                            Massive Open Online Courses</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        Massive Open Online Courses have today become a buzzword and there are different views on their future and possible utility. We believe that MOOCs should be seen as a small part of a larger revolution, viz. the Internet. In this Outlook, we have taken up the arduous task of attempting to visualize possible areas where MOOCs can be leveraged, across the Indian Education landscape.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:13px">
+
+
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=508" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                    <div style="font-family:Sans-Serif; font-size:13px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px">
+                            Skilling the Indian Workforce</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        Skilling is one of India’s most critical needs today. While a lot has been said about this imperative in the recent years, it is still not enough. There have been discussions about India’s significant youth advantage, especially in the context of most developed nations (and China) facing the challenge of an aging workforce.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:13px">
+
+
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=507" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                    <div style="font-family:Sans-Serif; font-size:13px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px">
+                            India’s Higher Education Segment</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        The Indian Higher Education system is the largest in the world encompassing 20 million students and approximately 36,000 institutions. However, with the population of India expected to grow to over 1.5 billion by 2020, the capacity of higher education institutions needs to nearly double, to meet the targeted Gross Enrolment Ratio, or GER, of 30%, for the higher education segment. In this Outlook, we have tried to highlight some of the key trends and dynamics that are shaping Indian higher education, including the establishment of private universities.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:13px">
+
+
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=504" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                    <div style="font-family:Sans-Serif; font-size:13px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px">
+                            Corporate Social Responsibility</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        The tradition of businesses contributing to society is a deep-rooted one in India, more so than in the western world. With the advent of modern management ideology and an increasing awareness of, and activism about, environmental and social issues, there is a renewed focus on corporate social responsibility. The new Companies Act, 2013, is a reflection of the sentiment prevailing in our country. CSR should not be an auxiliary activity that companies take up in good times; instead, it should become an integral part of their long-term strategy.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:13px">
+
+
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=503" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                    <div style="font-family:Sans-Serif; font-size:13px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px">
+                            India’s Vocational Education and Training Segment</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        In this Outlook, we start the discussion on vocational education by focusing on the low productivity with which India’s labor force is grappling, and the systemic issues that create barriers to vocational training. We also discuss the enabling conditions which the government is trying to create for private participation. As the challenges and the opportunities are both huge, the encouragement from the government, for the creation of for-profit sustainable business models, presents an attractive opportunity for private players.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:13px">
+
+
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=502" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                    <div style="font-family:Sans-Serif; font-size:13px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px">
+                            Family Businesses: Envisioning Growth along the Knowledge Curve</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        Family businesses usually appear to be a motley crowd, having varying sizes and seeming to be at different stages of evolution; with many ways of doing business and with shifting worldviews. While establishing rules of thumb about family businesses can be a hazardous exercise, there is a rather obvious need for education for the progression of the entire family business ecosystem along the knowledge curve. This Whitepaper is an excerpt of our research into assessing the need for learning as a way towards growth, from the perspective of the family business ecosystem.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:13px">
+
+
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=305" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                    <div style="font-family:Sans-Serif; font-size:13px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px">
+                            Ancillary Segment</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        The ancillary segment of India’s Education sector is currently estimated to be worth around USD 15 billion, and is expected to grow at a CAGR of 15% to touch USD 40 billion by 2020. The segment is largely unregulated and, typically, has asset-light business models. Further, it currently comprises mostly unorganized and local players. As a result, the key challenges faced by the segment are a lack of quality and standardization in the delivery of services. However, being the second largest segment in the Education sector, and having all the growth enablers present, makes it an ideal segment for private investment.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:13px">
+
+
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=304" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+
+
+        </div>
+
+
+    <table width="100%" align="center" style="height:auto">
+    <tbody><tr>
+    <td>
+    <div width="100%" style="border-top: 1px dotted; margin-top:10px; height: 8px; width:100%">
+    </div>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <div align="center" width="100%" style="font-size: 12px;  font-family:sans-serif; width:100%; height: 34px;">
+    <a href="http://technopak.com/Technopak-TnC.aspx?page=policy">
+            Privacy Policy</a> | <a href="http://technopak.com/Technopak-TnC.aspx?page=terms">Terms and Conditions</a>
+        | <a href="http://technopak.com/ContactUs.aspx">Contact Us</a> | Copyright © 2017 Technopak Advisors
+        Pvt. Ltd. All rights reserved.<br><br>
+        </div>
+    </td>
+    </tr>
+    </tbody></table>
+
+    </form>
+
+<script type="text/javascript">
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-47540252-1', 'technopak.com');
+    ga('send', 'pageview');
+
+</script>
+
+
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="./Education_files/widget_iframe.049716a23792bca881820db70e17250b.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./Education_files/saved_resource.html"></iframe></div>
+{% endblock %}

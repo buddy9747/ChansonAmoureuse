@@ -1,0 +1,26 @@
+{% extends "music/master.html" %}
+
+{% block title %}Gaana{% endblock %}
+{% block body %}
+
+<span background-color="blue">
+<div class="row">
+{% for i in album %}
+  <div class="col-sm-6 col-md-2">
+    <div class="thumbnail">
+      <img src="{{i.image.url}}" alt="...">
+      <div class="caption">
+	  <p>{{i.title}}</p>
+      <p>{{i.genre}}</p>																																											
+        <p><a href="{{i.id}}" class="btn btn-primary" role="button">Play</a> </p>
+		
+      </div>
+	</div>
+  </div>
+  {% endfor %}
+</div>
+</span>
+{%endblock%}
+
+
+

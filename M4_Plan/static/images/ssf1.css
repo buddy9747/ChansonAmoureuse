@@ -1,0 +1,145 @@
+body			{
+	background-color:#4d4d4d;
+	margin:0px;
+	font-size: 0px;
+	font-family:Sans-Serif;
+}
+.fl				{ float:left;}
+#top			{ 	width:1300px; 	height:267px; }
+#bot			{ 	width:1300px; 	height:194px; }
+#bot_space		{	width:1300px;	height:17px;	background-color: #000000;}
+#space			{ 	width:6px; 		height:1022px; }
+#side			{	width:18px;	height:1022px;}
+#maincnt_outer	{	width:100%;	height:1022px;}
+#maincnt_center	{	width:1300px;	height:1022px;}
+#maincnt_center p 	{font-family: Sans-Serif;	font-size: 12px;	color: #FFFFFF;	line-height: 15px;	display: block;	text-align: left;	margin: 0px;	padding: 0px;	font-weight: normal;	font-style: italic;}
+#maincnt_center h1 	{	font-size: 14px;	font-weight:normal;	padding: 0px;	color: #FFFFFF;	font-family: Sans-Serif; line-height: 15px;	text-align: left;	margin-top: 10px;	margin-right: 0px;	margin-bottom: 10px;	margin-left: 0px;}
+
+#col1				{	width:160px;	height:1022px;	margin: 0px;	padding: 0px;}
+	#col1_a			{	width:160px;	height:403px;	margin: 0px;	padding: 0px;}
+	#col1_b			{	width:160px;	height:403px;	margin: 0px;	padding: 0px;}
+	#col1_c			{	width:160px;	height:231px;	margin: 0px;	padding: 0px;}
+
+#col2			{	width:190px;	height:1022px;	margin: 0px;	padding: 0px;}
+	#col2_a			{	width:190px; height:539px;	margin: 0px;	padding: 0px;}
+	#col2_b			{	width:190px; height:312px;	margin: 0px;	padding: 0px;}
+	#col2_c			{	width:190px; height:171px;	margin: 0px;	padding: 0px;}
+	
+#col3			{	width:340px; height:1022px;	margin: 0px;	padding: 0px;}
+	#col3_a			{	width:340px; height:368px;	margin: 0px;	padding: 0px;}
+	#col3_b			{	width:340px; height:333px;	margin: 0px;	padding: 0px;}
+	#col3_c			{	width:340px; height:321px;	margin: 0px;	padding: 0px;}
+
+#col4			{	width:360px; height:1022px;	margin: 0px; font-family:Sans-Serif; font-weight:normal; font-size:14px; padding: 0px;}
+	#col4_a			{	width:360px; height:303px;	margin: 0px;	padding: 0px; font-family:Sans-Serif; font-weight:normal; font-size:14px;}
+		#col4_a_1		{	width:147px; height:303px;	margin: 0px;	padding: 0px;}
+		#col4_a_2		{	width:6px; height:303px;	margin: 0px;	padding: 0px;}
+		#col4_a_3		{	width:207px; height:303px;	margin: 0px;	padding: 0px;}
+	
+	#col4_b			{	width:360px; height:398px;	margin: 0px;	padding: 0px;}
+	#col4_c			{	width:360px; height:321px;	margin: 0px;	padding: 0px;}
+	
+#col5			{	width:190px; height:1022px;	margin: 0px;	padding: 0px;}
+	#col5_a			{	width:190px; height:297px;	margin: 0px;	padding: 0px;}
+	#col5_b			{	width:190px;	height:6px;	margin: 0px;	padding: 0px;}
+	#col5_c			{	width:190px; height:385px;	margin: 0px;	padding: 0px;}
+	#col5_d			{	width:190px; height:351px;	margin: 0px;	padding: 0px;}
+	
+img{border:0;}
+
+#boxa 	{width: 161px;	height: 388px;	background-color: #000;	position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+
+#boxa1 	{width: 161px;	height: 388px;	background-color: #000;	position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+#boxa2 	{width: 161px;	height: 388px;	background-color: #000;	position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+#boxa3 	{width: 161px;	height: 388px;	background-color: #000;	position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+#boxa4 	{width: 161px;	height: 388px;	background-color: #000;	position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+#boxa5 	{width: 161px;	height: 388px;	background-color: #000;	position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+#boxa6 	{width: 161px;	height: 388px;	background-color: #000;	position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+#boxa7 	{width: 161px;	height: 388px;	background-color: #000;	position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+#boxa8 	{width: 161px;	height: 388px;	background-color: #000;	position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+#boxa9 	{width: 161px;	height: 388px;	background-color: #000;	position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+#boxb 	{width: 161px;	height: 403px;	background-color: #000;	position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+#boxb1 	{width: 161px;	height: 403px;	background-color: #000;	position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+#boxb2 	{width: 161px;	height: 403px;	background-color: #000;	position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+#boxb3 	{width: 161px;	height: 403px;	background-color: #000;	position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+#boxc 	{width: 161px;	height: 231px;	background-color: #000; position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+#boxc1 	{width: 161px;	height: 231px;	background-color: #000; position: absolute;		margin: 0px;	padding: 0px;	float: left;}
+
+#boxd 	{width: 190px;	height: 539px;	background-color: #000; position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxd1 	{width: 190px;	height: 539px;	background-color: #000; position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxe 	{width: 190px;	height: 312px;	background-color: #000; position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxe1 	{width: 190px;	height: 312px;	background-color: #000; position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxf 	{width: 190px;	height: 171px;	background-color: #000; position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxf1 	{width: 190px;	height: 171px;	background-color: #000; position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+
+#boxg 	{width: 340px;	height: 368px;	background-color: #000; position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxg1 	{width: 340px;	height: 368px;	background-color: #000; position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+
+#boxg2 	{width: 340px;	height: 368px;	background-color: #000; position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxg3 	{width: 340px;	height: 368px;	background-color: #000; position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+
+#boxh 	{width: 340px;	height: 333px;	background-color: #000; position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxh1 	{width: 340px;	height: 333px;	background-color: #000; position: absolute;	margin: 0px;	padding: 0px;	float: left;}	
+#boxi 	{width: 340px;	height: 321px;	background-color: #000; position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxi1 	{width: 340px;	height: 321px;	background-color: #000; position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+
+#boxj 	{width: 360px;	height: 303px;	background-color: #000;position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxj1 	{width: 360px;	height: 303px;	background-color: #000;position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+
+#boxk 	{width: 207px;	height: 303px;	background-color: #000;position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxk1 	{width: 207px;	height: 303px;	background-color: #000;position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+
+#boxl 	{width: 360px;	height: 398px;	background-color: #000;position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxl1 	{width: 360px;	height: 398px;	background-color: #000;position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxm 	{width: 360px;	height: 321px;	background-color: #000;position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxm1 	{width: 360px;	height: 321px;	background-color: #000;position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+
+#boxn 	{width: 190px;	height: 297px;	background-color: #000;position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxn1 	{width: 190px;	height: 297px;	background-color: #000;position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxo 	{width: 190px;	height: 385px;	background-color: #000;position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxo1 	{width: 190px;	height: 385px;	background-color: #000;position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxp 	{width: 190px;	height: 351px;	background-color: #000;position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+#boxp1 	{width: 190px;	height: 351px;	background-color: #000;position: absolute;	margin: 0px;	padding: 0px;	float: left;}
+
+#homefoot_outer_space	{ 	height:10px; background-color:#000;}
+#homefoot_outer			{
+	height:178px;
+	width:100%;
+	background-color:#000;
+}
+#homefoot_in			{
+	height:178px;
+	width:1300px;
+	background-color:#000;
+}
+#homefoot_r1			{
+	height:114px;
+	width:1300px;
+}
+#homefoot_r1c1			{
+	height:114px;
+	width:230px;
+	text-align: left;
+}
+#homefoot_r1c2			{	height:82px;	width:1038px;	background-color:#000000;	margin-top: 32px;	margin-right: 32px; text-align: right;}
+#homefoot_r2			{
+	height:64px;
+	width:1300px;
+	background-color:#000000;
+}
+#bot_font				{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family:"Sans-Serif";
+	margin: 0px;
+	padding: 0px;
+}
+#bot_font a:hover		{
+	color: #fff;
+	text-decoration:underline;
+	font-size: 14px;
+	font-family:"Sans-Serif";
+	font-weight: normal;
+}
+
+	

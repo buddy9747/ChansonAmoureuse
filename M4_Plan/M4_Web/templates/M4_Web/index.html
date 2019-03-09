@@ -1,0 +1,836 @@
+{% extends 'M4_Web/base.html' %}
+
+{% block title %} {%  endblock %}
+ {% load static %}
+{% block body %}
+
+    <div align="center" class="main">
+
+        <script type="text/javascript" src="./index_files/prototype.js.download"></script>
+        <script type="text/javascript" src="./index_files/scriptaculous.js.download"></script><script type="text/javascript" src="./index_files/builder.js.download"></script><script type="text/javascript" src="./index_files/effects.js.download"></script><script type="text/javascript" src="./index_files/dragdrop.js.download"></script><script type="text/javascript" src="./index_files/controls.js.download"></script><script type="text/javascript" src="./index_files/slider.js.download"></script>
+        <script type="text/javascript" src="./index_files/jquery-1.8.3.min.js.download"></script>
+        <script type="text/javascript">
+            var diva = new Array('boxaaa1', 'boxaa1', 'boxa', 'boxa1', 'boxa2', 'boxa3', 'boxa5', 'boxa6', 'boxa7', 'boxa8', 'boxa9', 'boxa10');
+            var divb = new Array('boxb', 'boxb1', 'boxb2', 'boxb3');
+            var divc = new Array('boxc', 'boxc1');
+            var divd = new Array('boxd', 'boxd1');
+            var dive = new Array('boxe', 'boxe1');
+            var divf = new Array('boxf', 'boxf1');
+            var divg = new Array('boxg', 'boxg1', 'boxg2', 'boxg3');
+            var divh = new Array('boxh', 'boxh1');
+            var divi = new Array('boxi', 'boxi1');
+            var divj = new Array('boxj', 'boxj1');
+
+            var divl = new Array('boxl', 'boxl1');
+            var divm = new Array('boxm', 'boxm1');
+            var divn = new Array('boxn', 'boxn1');
+            var divo = new Array('boxo', 'boxo1');
+            var divp = new Array('boxp', 'boxp1');
+            var a = 0;
+            var b = 0;
+            var c = 0;
+            var d = 0;
+            var e = 0;
+            var f = 0;
+            var g = 0;
+            var h = 0;
+            var i = 0;
+            var j = 0;
+            //var k = 0;
+            var l = 0;
+            var m = 0;
+            var n = 0;
+            var o = 0;
+            var p = 0;
+            var waita = 7000;
+            var waitb = 9000;
+            var waitc = 4000;
+            var waitd = 5000;
+            var waite = 10000;
+            var waitf = 4000;
+            var waitg = 11000;
+            var waith = 12000;
+            var waiti = 4000;
+            var waitj = 14000;
+            var waitk = 15000;
+            var waitl = 9000;
+            var waitm = 4000;
+            var waitn = 4000;
+            var waito = 116000;
+            var waitp = 5000;
+
+            function swapFadea() {
+                Effect.Fade(diva[a], { duration: 1, from: 1.0, to: 0.0 });
+                a++;
+                if (a == 11) a = 0;
+                Effect.Appear(diva[a], { duration: 1, from: 0.0, to: 1.0 });
+            }
+
+            function swapFadeb() {
+                Effect.Fade(divb[b], { duration: 1, from: 1.0, to: 0.0 });
+                b++;
+                if (b == 4) b = 0;
+                Effect.Appear(divb[b], { duration: 1, from: 0.0, to: 1.0 });
+            }
+
+            function swapFadec() {
+                Effect.Fade(divc[c], { duration: 1, from: 1.0, to: 0.0 });
+                c++;
+                if (c == 2) c = 0;
+                Effect.Appear(divc[c], { duration: 1, from: 0.0, to: 1.0 });
+            }
+
+            function swapFaded() {
+                Effect.Fade(divd[d], { duration: 1, from: 1.0, to: 0.0 });
+                d++;
+                if (d == 2) d = 0;
+                Effect.Appear(divd[d], { duration: 1, from: 0.0, to: 1.0 });
+            }
+
+            function swapFadee() {
+                Effect.Fade(dive[e], { duration: 1, from: 1.0, to: 0.0 });
+                e++;
+                if (e == 2) e = 0;
+                Effect.Appear(dive[e], { duration: 1, from: 0.0, to: 1.0 });
+            }
+
+            function swapFadef() {
+                Effect.Fade(divf[f], { duration: 1, from: 1.0, to: 0.0 });
+                f++;
+                if (f == 2) f = 0;
+                Effect.Appear(divf[f], { duration: 1, from: 0.0, to: 1.0 });
+            }
+
+            function swapFadeg() {
+                Effect.Fade(divg[g], { duration: 1, from: 1.0, to: 0.0 });
+                g++;
+                if (g == 4) g = 0;
+                Effect.Appear(divg[g], { duration: 1, from: 0.0, to: 1.0 });
+            }
+
+            function swapFadeh() {
+                Effect.Fade(divh[h], { duration: 1, from: 1.0, to: 0.0 });
+                h++;
+                if (h == 2) h = 0;
+                Effect.Appear(divh[h], { duration: 1, from: 0.0, to: 1.0 });
+            }
+
+            function swapFadei() {
+                Effect.Fade(divi[i], { duration: 1, from: 1.0, to: 0.0 });
+                i++;
+                if (i == 2) i = 0;
+                Effect.Appear(divi[i], { duration: 1, from: 0.0, to: 1.0 });
+            }
+
+            function swapFadej() {
+                Effect.Fade(divj[j], { duration: 1, from: 1.0, to: 0.0 });
+                j++;
+                if (j == 2) j = 0;
+                Effect.Appear(divj[j], { duration: 1, from: 0.0, to: 1.0 });
+            }
+
+
+            function swapFadel() {
+                Effect.Fade(divl[l], { duration: 1, from: 1.0, to: 0.0 });
+                l++;
+                if (l == 2) l = 0;
+                Effect.Appear(divl[l], { duration: 1, from: 0.0, to: 1.0 });
+            }
+
+            function swapFadem() {
+                Effect.Fade(divm[m], { duration: 1, from: 1.0, to: 0.0 });
+                m++;
+                if (m == 2) m = 0;
+                Effect.Appear(divm[m], { duration: 1, from: 0.0, to: 1.0 });
+            }
+
+            function swapFaden() {
+                Effect.Fade(divn[n], { duration: 1, from: 1.0, to: 0.0 });
+                n++;
+                if (n == 2) n = 0;
+                Effect.Appear(divn[n], { duration: 1, from: 0.0, to: 1.0 });
+            }
+
+            function swapFadeo() {
+                Effect.Fade(divo[o], { duration: 1, from: 1.0, to: 0.0 });
+                o++;
+                if (o == 2) o = 0;
+                Effect.Appear(divo[o], { duration: 1, from: 0.0, to: 1.0 });
+            }
+            function swapFadep() {
+                Effect.Fade(divp[p], { duration: 1, from: 1.0, to: 0.0 });
+                p++;
+                if (p == 2) p = 0;
+                Effect.Appear(divp[p], { duration: 1, from: 0.0, to: 1.0 });
+            }
+
+
+
+            function startPage() {
+                setInterval('swapFadea()', waita);
+                setInterval('swapFadeb()', waitb);
+                setInterval('swapFadec()', waitc);
+                setInterval('swapFaded()', waitd);
+                setInterval('swapFadee()', waite);
+                setInterval('swapFadef()', waitf);
+                setInterval('swapFadeg()', waitg);
+                setInterval('swapFadeh()', waith);
+                setInterval('swapFadei()', waiti);
+                setInterval('swapFadej()', waitj);
+                //setInterval('swapFadek()', waitk);
+                setInterval('swapFadel()', waitl);
+                setInterval('swapFadem()', waitm);
+                setInterval('swapFaden()', waitn);
+                setInterval('swapFadeo()', waito);
+                setInterval('swapFadep()', waitp);
+            }
+            function setChatBoxVisiblity(flag) {
+                if (flag == 0) {
+                    document.getElementById('ChatBox').style.display = "";
+                    document.getElementById('ChatBox_container').style.display = "none";
+                }
+                else {
+                    document.getElementById('ChatBox').style.display = "none";
+                    document.getElementById('ChatBox_container').style.display = "";
+                }
+            }
+            function EraseWaterMarkOnFocus(obj) {
+                if (obj.value == obj.title) {
+                    obj.value = "";
+                }
+            }
+            function SetWaterMarkOnBlur(obj) {
+                if (obj.value == "") {
+                    obj.value = obj.title;
+                }
+            }
+            function validateQueryFields() {
+                var ObjName = document.getElementById('MainContent_txtName');
+                var ObjEmail = document.getElementById('MainContent_txtEmail');
+
+                var ObjMessage = document.getElementById('MainContent_txtMessage');
+                var ObjSendButton = document.getElementById('MainContent_btnSubmit');
+                if (ObjName.value == "" || ObjName.value == ObjName.title) {
+                    alert('Please provide your Name.');
+                    ObjName.focus();
+                    return false;
+                }
+                if (ObjEmail.value == "" || ObjEmail.value == ObjEmail.title) {
+                    alert('Please provide your Email-Id.');
+                    ObjEmail.focus();
+                    return false;
+                }
+
+                if (ObjMessage.value == "" || ObjMessage.value == ObjMessage.title) {
+                    alert('Please provide a message so that we can better assist you.');
+                    ObjMessage.focus();
+                    return false;
+                }
+                ObjSendButton.value = "Sending...Please wait";
+            }
+        </script>
+        <script type="text/javascript">
+            $jq = jQuery.noConflict();
+
+            $jq(document).ready(function () {
+                startPage();
+                setChatBoxVisiblity(0);
+            });
+
+        </script>
+        <script type="text/javascript" src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/document_iterator.js"></script>
+        <script type="text/javascript" src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/find_proxy.js"></script>
+        <script type="text/javascript" src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/get_html_text.js"></script>
+        <script type="text/javascript" src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/global_constants.js"></script>
+        <script type="text/javascript" src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/name_injection_builder.js"></script>
+        <script type="text/javascript" src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/number_injection_builder.js"></script>
+        <script type="text/javascript" src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/string_finder.js"></script>
+        <script type="text/javascript" src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/change_sink.js"></script>
+        <link href="./index_files/ssf1.css" rel="stylesheet" type="text/css">
+        <link href="./index_files/tpk1.css" rel="stylesheet" type="text/css">
+        <link href="./index_files/ChatBox.css" rel="Stylesheet" type="text/css">
+        <div id="colrow_space">
+        </div>
+        <!----------------------------------------------------->
+        <div id="maincnt_outer" align="center" style="padding-top:205px">
+            <div id="maincnt_center">
+
+                <div id="side" class="fl">
+                </div>
+                <div id="col1" class="fl">
+                    <div id="col1_a" class="fl" style="height:auto;
+     min-height:42%">
+     <div id="boxaaa1" style="opacity: 1; display: none;">
+                            <a target="_blank" href="http://technopak.com/Technopak-Login.aspx?SNo=514">
+                                <img src="{% static 'images/K-12 Outlook 2017.jpg' %}" alt="K-12 outlook"><h1>
+                                  Outlook on India’s Schooling Segment</h1>
+                            </a>
+
+                        </div>
+    <div id="boxaa1" style="opacity: 1; display: none;">
+                            <a target="_blank" href="http://technopak.com/Technopak-Login.aspx?SNo=512">
+                                <img src="{% static 'images/WHITEPAPER-ON-DIGITAL-LEARNING.jpg' %}" alt="Whitepaper-Digital-Learning"><h1>
+                                  Whitepaper on Digital-Learning</h1>
+                            </a>
+                            <p>
+    Digital-Learning and online certifications open up a gamut of options for students looking to enter both traditional and non-traditional fields. This paper outlines a variety of different drivers and delivery models for students, opportunities
+    <br>and challenges for online education service providers, and emerging trends for the future, keeping in mind current skill gaps and imminent advances in the field of digital-learning.
+    </p>
+                        </div>
+
+    <div id="boxa" style="opacity: 1; display: none;">
+                            <a target="_blank" href="http://technopak.com/Technopak-Login.aspx?SNo=513">
+                                <img src="{% static 'images/Cotton-Outlook.jpg' %} " alt="cotton-outlook"><h1>
+                                  The Future of Cotton</h1>
+                            </a>
+                            <p>
+                                This Outlook is an attempt to study the future of Cotton &amp; its impact on the Fashion Value Chain.</p>
+                        </div>
+
+                        <div id="boxa1" style="opacity: 1; display: none;">
+                            <a target="_blank" href="http://technopak.com/Technopak-Login.aspx?SNo=507">
+                                <img src="{% static 'images/Skiling-Whitepaper-2014-1.png' %}" alt="Skilling the Indian Workforce"><h1>
+                                  Skilling the Indian Workforce</h1>
+                            </a>
+                            <p>
+                                This whitepaper attempts to lay the groundwork for robust national infrastructure for skilling and vocational education.</p>
+                        </div>
+
+                        <div id="boxa2" style="opacity: 1;">
+                            <a target="_blank" href="http://technopak.com/Technopak-Login.aspx?SNo=511">
+                                <img src="./index_files/Technopak-E-tailing-Outlook-2014-Final-1.png" alt="e-tailing in India"><h1>
+                                  e-tailing in India @ inflection point</h1>
+                            </a>
+                            <p>
+                                This outlook is a synopsis of the current e-tailing marketing structure and trends defining the e-tailing revolution at the inflection point.</p>
+                        </div>
+
+
+                          <div id="boxa3" style="opacity: 1; display:none">
+                            <a target="_blank" href="http://technopak.com/Technopak-Login.aspx?SNo=510">
+                                <img src="./index_files/Farm2Fork_2014.jpg" alt="India Farm to Fork 2014 "><h1>
+                                   INDIA: World’s Emerging Food Leader</h1>
+                            </a>
+                            <p>
+                                This Outlook focusses on the food services ecosystem from a holistic perspective, along with the challenges and opportunities extant therein.</p>
+                        </div>
+
+
+
+    <div id="boxa5" style="opacity: 1; display:none;">
+                            <a target="_blank" href="http://technopak.com/Technopak-Login.aspx?SNo=508">
+                                <img src="./index_files/Mocs.jpg" alt="Technopak Food Services Trends"><h1>
+                                    Massive Open Online Courses </h1>
+                            </a>
+                            <p>
+                           This Outlook attempts to visualize possible areas where Massive Open Online Courses can be leveraged, across the Indian Education landscape.</p>
+                         </div>
+                         <div id="boxa6" style="opacity: 1; display:none;">
+                            <a target="_blank" href="http://technopak.com/Technopak-Login.aspx?SNo=509">
+                                <img src="./index_files/India&#39;sEDtrend.jpg" alt="Technopak Food Services Trends"><h1>
+                                    India Education Trends</h1>
+                            </a>
+                            <p>
+                           This Outlook focuses on identifying the key trends in the Education sector across various segments.</p>
+                         </div>
+                         <div id="boxa7" style="opacity: 1; display:none;">
+                            <a target="_blank" href="http://technopak.com/Technopak-Login.aspx?SNo=506">
+                                <img src="./index_files/Technopak-Food-Services-Trends-2014.png" alt="Technopak Food Services Trends"><h1>
+                                    India Food Services Trends</h1>
+                            </a>
+                            <p>
+                           This Outlook captures some expected trends for the year ahead, both on the consumer as well as operator fronts. These cover various aspects including operational efficiency, social marketing, choice of menus &amp; concepts as well as their extensions.</p>
+                         </div>
+
+
+
+                    <div id="boxa8" style="display: none; opacity: 1;">
+                            <a target="_blank" href="http://technopak.com/Technopak-Login.aspx?SNo=501">
+                                <img src="./index_files/Technopak Fashion Whitepaper- January 2014.png" alt="Textiles &amp; Apparel Retailing"><h1>
+                                    Textiles &amp; Apparel Retailing</h1>
+                            </a>
+                            <p>
+                           This Whitepaper attempts to identify new pockets of future growth and emerging opportunities across the Textiles &amp; Apparel supply chain, within both the domestic market as well as the global one.</p>
+                        </div>
+
+
+
+
+
+
+
+
+
+                        <div id="boxa9" style="display: none; opacity: 1;">
+                            <a target="_blank" href="http://technopak.com/Technopak-Login.aspx?SNo=204">
+                                <img src="{% static '/images/Technopak_FB_Outlook.jpg' %}" alt="Emerging Trends in Food and Beverage Services"><h1>
+                                    Emerging Trends in Food and Beverage Services</h1>
+                            </a>
+                            <p>
+                                This document looks at some of the emerging and current trends that will shape the
+                                eating and serving behaviour in the F&amp;B industry.</p>
+                        </div>
+
+                    </div>
+                    <div id="col1_b" class="fl">
+                        <div id="boxb" style="opacity: 1; display: none;">
+
+                            <img src="{% static '/images/PerspectiveStandBy.jpg' %}" alt="Perspective">
+                        </div>
+                        <div id="boxb1" style="opacity: 1; display: none;">
+
+                            <img src="{% static '/images/PerspectiveStandBy.jpg' %}" alt="Perspective">
+                        </div>
+                        <div id="boxb2" style="opacity: 1; display: none;">
+
+                            <img src="./index_files/PerspectiveStandBy.jpg" alt="Perspective">
+                        </div>
+                        <div id="boxb3" style="opacity: 1;">
+
+                            <img src="./index_files/PerspectiveStandBy.jpg" alt="Perspective">
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                    <div id="col1_c" class="fl">
+                        <div id="boxc" style="opacity: 1; display: none;">
+                            <img src="./index_files/kit.jpg" alt="kit"></div>
+                        <div id="boxc1" style="opacity: 1;">
+                            <img src="./index_files/kit1.jpg" alt="kit1"></div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+                <div id="space" class="fl">
+                </div>
+                <div id="col2" class="fl">
+                    <div id="col2_a" class="fl" style="height:auto;
+     min-height:56%">
+                        <div id="boxd" style="opacity: 0.654508;">
+                            <a href="http://technopak.com/Technopak-CaseStudies.aspx?Vertical=Retail">
+                                <img src="./index_files/Retail.jpg" alt="Retail -  Case Studies"><h1>
+                                    Retail Case Studies</h1>
+                            </a>
+                            <p>
+                                Technopak specializes in India entry strategies. We develop methods that penetrate
+                                untapped territories, open up more opportunities, and help create longer lifelines
+                                for our clients.The enormous knowledge and talent pool at Technopak enables us to
+                                create specially customized teams for each project.</p>
+                        </div>
+                        <div id="boxd1" style="opacity: 0.343998;">
+                            <a href="http://technopak.com/Technopak-CaseStudies.aspx?Vertical=Retail">
+                                <img src="./index_files/Retail.gif" alt="Retail -  Case Studies"></a><h1>
+                                    Retail Case Studies</h1><h1>
+                                    </h1>
+                            <p>
+                                Our team comprises uniquely talented professionals from leading international and
+                                Indian engineering and management institutes. Our consultants have the expertise
+                                and hands-on industry experience in their fields of specialization and represent
+                                a wide variety of functional backgrounds.</p>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                    <div id="col2_b" class="fl">
+                        <div id="boxe" style="opacity: 0.345492;">
+
+                            <img src="./index_files/v3.jpg" alt="v3">
+                            <h1>
+                                Innovative Solutions
+                            </h1>
+                            <p>
+                                We possess the zeal to undertake assignments that engross and evoke our potential
+                                in facing challenges and developing innovative solutions that are beneficial to
+                                the clients, society, and the world at large.
+                            </p>
+                        </div>
+                        <div id="boxe1" style="opacity: 0.654508;">
+
+                            <img src="./index_files/v3.jpg" alt="v3">
+                            <h1>
+                                Innovative Solutions
+                            </h1>
+                            <p>
+                                We possess the zeal to undertake assignments that engross and evoke our potential
+                                in facing challenges and developing innovative solutions that are beneficial to
+                                the clients, society, and the world at large.
+                            </p>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                    <div id="col2_c" class="fl">
+                        <div id="boxf" style="opacity: 1; display: none;">
+                            <!-- <a href="#"> -->
+                            <img src="./index_files/Cricket.jpg" alt="cricket">
+                        </div>
+                        <div id="boxf1" style="opacity: 1;">
+                            <!-- <a href="#"> -->
+                            <img src="./index_files/Cricketa.jpg" alt="cricket1">
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+                <div id="space" class="fl">
+                </div>
+                <div id="col3" class="fl">
+                    <div id="col3_a" class="fl">
+                        <div id="boxg" style="opacity: 1; display: none;">
+                            <a target="_blank">
+                                <img src="./index_files/Events pic.jpg" alt="eventpic"></a><h1>
+                                    Events</h1>
+                            <p>
+                                We conduct a range of events which enable our clients to understand our work,
+                                recognize their potential, and acquire global exposure. Our Technopak Leadership
+                                Forums provide an insight into available opportunities.</p>
+                        </div>
+                        <div id="boxg1" style="opacity: 1; display: none;">
+                            <a target="_blank">
+                                <img src="./index_files/Events pic.jpg" alt="eventpic1"></a><h1>
+                                    Events</h1>
+                            <p>
+                               We conduct a range of events which enable our clients to understand our work,
+                                recognize their potential, and acquire global exposure. Our Technopak Leadership
+                                Forums provide an insight into available opportunities.</p>
+                        </div>
+                        <div id="boxg2" style="opacity: 1;">
+                            <a target="_blank">
+                                <img src="./index_files/Events pic.jpg" alt="eventpic2"></a><h1>
+                                    Events</h1>
+                            <p>
+                               We conduct a range of events which enable our clients to understand our work,
+                                recognize their potential, and acquire global exposure. Our Technopak Leadership
+                                Forums provide an insight into available opportunities.</p>
+                        </div>
+                        <div id="boxg3" style="display: none; opacity: 1;">
+                            <a target="_blank">
+                                <img src="./index_files/Events pic.jpg" alt="eventpic3"></a><h1>
+                                    Events</h1>
+                            <p>
+                               We conduct a range of events which enable our clients to understand our work,
+                                recognize their potential, and acquire global exposure. Our Technopak Leadership
+                                Forums provide an insight into available opportunities.</p>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                    <div id="col3_b" class="fl">
+                        <div id="boxh" style="opacity: 1;">
+                            <a href="http://technopak.com/Technopak-CaseStudies.aspx?Vertical=Fashion">
+                                <img src="./index_files/Fashion.jpg" alt="eventpic4">
+                                <h1>
+                                    Fashion - Textiles &amp; Apparel Case Studies</h1>
+                            </a>
+                            <p>
+                                Adapting businesses to rapidly-changing economic scenarios for keener quality delivery
+                                and to gain an edge over the competition.</p>
+                        </div>
+                        <div id="boxh1" style="opacity: 1; display: none;">
+                            <a href="http://technopak.com/Technopak-CaseStudies.aspx?Vertical=Fashion">
+                                <img src="./index_files/Fashiona.jpg" alt="fashion">
+                                <h1>
+                                    Fashion - Textiles &amp; Apparel Case Studies</h1>
+                            </a>
+                            <p>
+                                Continually training resources for higher suitability to job profiles, optimum productivity,
+                                and a consistently effective contribution to the industry.</p>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                    <div id="col3_c" class="fl">
+                        <div id="boxi" style="opacity: 1; display: none;">
+                            <img src="./index_files/LifeNew.jpg" alt="Life at technopak">
+                            <h1>
+                                Life at Technopak</h1>
+                            <p>
+                                We are a culture that encourages team effort alongside individual development. A
+                                group of dynamic, creative, and intellectual people, we create an environment that
+                                values individual perception and provokes high performance.
+                            </p>
+                        </div>
+                        <div id="boxi1" style="opacity: 1;">
+                            <img src="./index_files/LifeNew.jpg" alt="Life at technopak">
+                            <h1>
+                                Life at Technopak</h1>
+                            <p>
+                                We are a culture that encourages team effort alongside individual development. A
+                                group of dynamic, creative, and intellectual people, we create an environment that
+                                values individual perception and provokes high performance.
+                            </p>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+                <div id="space" class="fl">
+                </div>
+                <div id="col4" class="fl">
+                    <div id="col4_a" class="fl">
+                        <div id="col4_a_1" class="fl">
+                            <div id="boxj" style="opacity: 1;">
+    <a href="http://www.wgsn.com/" target="_blank">
+                                    <img src="./index_files/WGSN-white.png" height="200px" alt="WGSN_logo">
+                                    </a>
+                                    <p style="margin-top:-3px; font-size:13px; font-family:Sans-Serif; font-weight:normal;">
+
+                                    Providing trusted information, insight and inspiration to our clients since 1997.</p>
+    <p style="margin-top:5px">Our experts provide deep insight and analysis of consumer, fashion and design trends through our WGSN.com platform and consulting business. We inspire our clients to plan and trade their product range with confidence.
+                                 </p>
+                                </div>
+                                <div id="boxj1" style="opacity: 1; display: none;">
+                                <a href="http://www.wgsn.com/" target="_blank">
+                                    <img src="./index_files/WGSN-white.png" height="200px" alt="WGSN_logo">
+                                </a>
+                                <p style="margin-top:-3px; font-size:13px; font-family:Sans-Serif; font-weight:normal;">
+                                    Providing trusted information, insight and inspiration to our clients since 1997.</p>
+    <p style="margin-top:5px">Our experts provide deep insight and analysis of consumer, fashion and design trends through our WGSN.com platform and consulting business. We inspire our clients to plan and trade their product range with confidence.
+                                 </p>
+
+
+                            </div>
+
+                            <div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="col4_b" class="fl">
+                        <div id="boxl" style="opacity: 1; margin-top: 0px; display: none;">
+
+                        <a href="http://ebeltoftgroup.com/" target="_blank">
+                                    <img src="./index_files/Ebeltoft_Group_Logo.jpg" alt="education">
+                                </a>
+                                <p style="margin-top:0px">
+                                    Technopak, a management consulting firm, is the Indian member of the Ebeltoft Group,
+                                    an alliance of 20 International Retail Experts based in 22 countries.
+                                </p>
+                            </div>
+                            <div id="boxl1" style="opacity: 1; margin-top: 0px;" "="">
+                                <a href="http://ebeltoftgroup.com/">
+                                    <img src="./index_files/Ebeltoft_Group_Logo.jpg" alt="education">
+                                </a>
+                                 <p style="margin-top:0px">
+                                    Technopak, a management consulting firm, is the Indian member of the Ebeltoft Group,
+                                    an alliance of 20 International Retail Experts based in 22 countries.
+                                </p>
+                            </div>
+                        <div>
+                        </div>
+                    </div>
+                    <div id="col4_c" class="fl">
+                        <div id="boxm" style="opacity: 1; display: none;">
+                        <a href="http://technopak.com/Technopak-CaseStudies.aspx?Vertical=Food">
+                                <img src="./index_files/Agri.gif" alt="Food Services &amp; Agriculture - Case Studies"></a>
+                            <h1>
+                                Food Services &amp; Agriculture Case Studies</h1>
+                            <p>
+                                We plan in a way that inspires people to build a successful organization and contribute
+                                to its progress, day in and day out.</p>
+                        </div>
+                        <div id="boxm1" style="opacity: 1;">
+                            <a href="http://technopak.com/Technopak-CaseStudies.aspx?Vertical=Food">
+                                <img src="./index_files/Food.jpg" alt="Food Services &amp; Agriculture - Case Studies"></a><h1>
+                                    Food Services &amp; Agriculture Case Studies</h1>
+                            <p>
+                                Connecting the dots to create more transparent feasibility studies and contribute
+                                to a more confident entry into the market.</p>
+                        </div>
+
+                        <div>
+                        </div>
+                    </div>
+                </div>
+                <div id="space" class="fl">
+                </div>
+                  <div id="col5" class="fl">
+                    <div id="col5_a" class="fl">
+
+                        <div id="boxnnn" style="opacity: 1;">
+    <a title="" href="https://www.wooqer.com/" target="_blank"><img src="./index_files/Wooqer -01.jpg" alt="wooqer" width="188px" height="300px" style="border-left:solid 1px #494c51">  </a>
+
+                                <p style="margin-top:-210px; font-size:13px; padding-left:10px; padding-right:5px; font-weight:bold; font-family:Sans-Serif; font-weight:normal;">
+                                A simple insight that evolved into a rapidly growing international startup.</p>
+    <p style="margin-top:5px; padding-left:10px; padding-right:5px; padding-top:10px; font-size:12px">Wooqer was built on the insight that companies need to react quickly to changing business conditions. By building a flexible platform for employees to create their own solutions and iterate on them quickly we’ve enabled companies in a variety of industries and countries to simplify the way they work.
+                                 </p>
+                                </div>
+                        <div>
+                        </div>
+
+                    </div>
+                    <div id="col5_b" class="fl">
+                    </div>
+                    <div id="col5_c" class="fl" style="height:auto;
+     min-height:40%">
+                        <div id="boxo" style="opacity: 1;">
+
+                            <a href="http://technopak.com/Technopak-CaseStudies.aspx?Vertical=Education">
+                                <img src="./index_files/EducationCS1.jpg" alt="education">
+                                <h1>
+                                    Education Case Studies</h1>
+                            </a>
+                            <p>
+                                Leveraging opportunities in the sector to generate interest among corporate participants
+                                for investments.</p>
+                        </div>
+                        <div id="boxo1" style="display: none; opacity: 1;">
+                            <a href="http://technopak.com/Technopak-CaseStudies.aspx?Vertical=Education">
+                                <img src="./index_files/EducationCS2.jpg" alt="education">
+                                <h1>
+                                    Education Case Studies</h1>
+                            </a>
+                            <p>
+                                Strategizing and implementing strategies with a single-minded focus on feasibility.
+                            </p>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                    <div id="col5_d" class="fl">
+                        <div id="boxp" style="opacity: 0.654508;">
+                            <a style="cursor:default">
+                                <img src="./index_files/food31.jpg" alt="food"></a>
+                        </div>
+                        <div id="boxp1" style="opacity: 0.345492;">
+                           <a style="cursor:default">
+                                <img src="./index_files/food31.jpg" alt="food1"></a>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Div2" class="fl">
+                </div>
+
+
+
+        <div id="homefoot_r1" class="fl" style="font-size:15px;">
+            <div id="homefoot_r1c1" class="fl">
+
+            </div>
+        </div>
+         </div>
+        </div>
+     <table height="20px" border="0" align="center" cellpadding="0" cellspacing="0" style="padding-left:250px; line-height:0px;  padding-top:10px">
+                    <tbody><tr>
+                        <td width="35">
+                            <img src="./index_files/presentation2.png" style="margin-top:0px;" alt="presentation01">
+                        </td>
+                        <td width="185">
+                            <p>
+                                &nbsp;&nbsp;<a href="http://technopak.com/Technopak-Presentations.aspx" target="_blank" onmouseover="this.style.color=&#39;#109276&#39;" onmouseout="this.style.color=&#39;#FFF&#39;" style="font-size:14px; text-decoration:none; font-family:Sans-Serif;">Presentations</a></p>
+                        </td>
+                        <td width="40">
+                            <img src="./index_files/kcntr.png" alt="knowledge center" style="margin-top:0px;  vertical-align:text-top">
+                        </td>
+                        <td width="215">
+                            <p id="P1">
+
+                         <a id="MainContent_knledgcenrlink" onmouseover="this.style.color=&#39;#109276&#39;" onmouseout="this.style.color=&#39;#FFF&#39;" href="javascript:__doPostBack(&#39;ctl00$MainContent$knledgcenrlink&#39;,&#39;&#39;)" style="font-size:14px; text-decoration:none; margin-left:4px; font-family:Sans-Serif">Knowledge Center</a>
+                                </p>
+                        </td>
+
+                         <td width="40">
+                            <img src="./index_files/grpcomp2.png" style="" alt="Groupcompanies">
+                        </td>
+                        <td width="195">
+                            <p>
+                            <a href="http://technopak.com/Group-Companies.aspx" target="_blank" onmouseover="this.style.color=&#39;#109276&#39;" onmouseout="this.style.color=&#39;#FFF&#39;" style="font-size:14px; text-decoration:none; font-family:Sans-Serif">Group Company</a></p>
+                        </td>
+                        <td width="40" bgcolor="#000000">
+                            <img src="./index_files/notification.png" style="notification" alt="">
+                        </td>
+                        <td width="300">
+                            <p>
+                            <a href="http://technopak.com/Technopak-Notification.aspx" target="_blank" onmouseover="this.style.color=&#39;#109276&#39;" onmouseout="this.style.color=&#39;#FFF&#39;" style="font-size:14px; text-decoration:none; font-family:Sans-Serif">Notification</a></p>
+                        </td>
+
+                    </tr>
+                   </tbody></table>
+        <div class="ChatBox" id="ChatBox" style="padding-top:50px;">
+            <div class="base" style="display: block; margin: 0px 10px; width: auto ! important;
+                left: auto; right: 0px; animation-name: none; ">
+                <a class="baseline" style="padding-left: 10px; padding-right: 25px;  width: auto;
+                    text-decoration: none!important;" onclick="javascript:setChatBoxVisiblity(1);" href="http://technopak.com/#">Offline - Click here to leave a message</a>
+            </div>
+        </div>
+        <div id="ChatBox_container" class="ChatBox_chat ChatBox" style="display: none;">
+            <div id="ChatBox_frame_container">
+                <div id="ChatBoxchat_container" style="z-index: 2147483638!important;">
+                    <div id="ChatBox_popup" class="layout CBForm" style="bottom: 0px; position: fixed;
+                        z-index: 2147483638; margin: 10px 0px; left: auto; right: 0px;">
+                        <div id="ChatBox_header" class="chatHeader">
+                            <div class="headerImg">
+                                <img id="anonymousIcon" src="./index_files/CBAnonymousPic.png" alt="icon">
+                            </div>
+                            <div class="headerText">
+                                <span>Can we help?</span>
+                            </div>
+                            <span class="minimizeSpan"><a id="btnMinimize" class="btnMinimize" title="Minimize" onclick="javascript:setChatBoxVisiblity(0);" href="http://technopak.com/#"></a></span>
+                        </div>
+                        <div id="QueryForm" class="QueryForm" style="display: block; position: relative ! important;
+                            padding: 0px ! important;">
+                            <dfn style="padding: 0px 0px 5px 0px!important;">Please leave your name, email address,
+                                and contact. we will get back to you soon. Thanks.</dfn>
+                            <ul>
+                                <li>
+                                    <input name="ctl00$MainContent$txtName" type="text" id="MainContent_txtName" value="Name" title="Name" onfocus="javascript:EraseWaterMarkOnFocus(this);" onblur="javascript:SetWaterMarkOnBlur(this)" style="border-color: rgb(204, 204, 204);">
+                                </li>
+                                <li>
+                                    <input name="ctl00$MainContent$txtEmail" id="MainContent_txtEmail" value="Email" type="email" title="Email" onfocus="javascript:EraseWaterMarkOnFocus(this);" onblur="javascript:SetWaterMarkOnBlur(this)" style="border-color: rgb(204, 204, 204);">
+                                </li>
+                                <li>
+                                    <input name="ctl00$MainContent$txtContact" id="MainContent_txtContact" value="Contact" type="number" title="Contact" onfocus="javascript:EraseWaterMarkOnFocus(this);" onblur="javascript:SetWaterMarkOnBlur(this)" style="border-color: rgb(204, 204, 204);">
+                                </li>
+                                <li>
+                                    <textarea name="ctl00$MainContent$txtMessage" rows="2" cols="20" id="MainContent_txtMessage" value="Message" type="textarea" title="Message" onfocus="javascript:EraseWaterMarkOnFocus(this);" onblur="javascript:SetWaterMarkOnBlur(this)" style="border-color: rgb(204, 204, 204);">Message</textarea>
+                                </li>
+                                <li>
+                                    <input type="submit" name="ctl00$MainContent$btnSubmit" value="Send Message" onclick="return validateQueryFields();" id="MainContent_btnSubmit" class="next">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            </div>
+
+
+        <table width="100%" align="center" style="height:auto">
+        <tbody><tr>
+        <td>
+        <div width="100%" style="border-top: 1px dotted; margin-top:10px; height: 8px; width:100%">
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <div align="center" width="100%" style="font-size: 12px;  font-family:sans-serif; width:100%; height: 34px;">
+        <a href="http://technopak.com/Technopak-TnC.aspx?page=policy">
+                Privacy Policy</a> | <a href="http://technopak.com/Technopak-TnC.aspx?page=terms">Terms and Conditions</a>
+            | <a href="http://technopak.com/ContactUs.aspx">Contact Us</a> | Copyright © 2017 Technopak Advisors
+            Pvt. Ltd. All rights reserved.<br><br>
+            </div>
+        </td>
+        </tr>
+        </tbody></table>
+
+        </form>
+
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-47540252-1', 'technopak.com');
+        ga('send', 'pageview');
+
+    </script>
+
+{% endblock %}

@@ -1,0 +1,499 @@
+{% extends 'M4_Web/base.html' %}
+{% block title %} {% endblock %}
+{% load static %}
+{% block body %}
+    <script async="" src="./careers_files/analytics.js.download"></script><script id="twitter-wjs" src="./careers_files/widgets.js.download"></script><script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 500) {
+                    $(".header").addClass('smaller');
+                } else {
+                    $(".header").removeClass("smaller");
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        window.addEventListener('mouseup', function (event) {
+            var box = document.getElementById('info');
+            var box1 = document.getElementById('bg-effect');
+            if (event.target != box && event.target.parentNode != box) {
+                box.style.display = 'none';
+                box1.style.display = 'none';
+            }
+        });
+</script>
+   <style>
+   .header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: fixed;
+
+    z-index: 999;
+    background-image:url('images/gradient2.jpg');
+    border:solid;
+ border-bottom-width :3px;
+border-image:url('images/line.png') 0 0 20 0 repeat;
+
+}
+.header h1#logo {
+    display: inline=block;
+    vertical-align:top;
+   font-size: 60px;
+    line-height: 150px;
+    font-weight: 400;
+
+
+}
+
+.header ul
+{
+
+ height:180px;
+font-family:Sans-Serif;
+
+}
+.header li a {
+
+
+   color: #D3D3D3;
+   font-size: 14px;
+
+   line-height:25px;
+   padding-top:10px;
+
+   font-family:Sans-Serif;
+
+
+
+}
+.header li a:hover{color:#109276;  text-decoration:none;}
+.header nav {
+    display: inline=block;
+
+}
+.header nav a {
+
+    color: #D5D5D5;
+    font-weight: 700;
+    font-size: 14px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header span {
+    display: inline=block;
+    float:left;
+    margin-right:0px;
+}
+.header span a {
+    line-height: 150px;
+    margin-left:10px;
+    color: #D5D5D5;
+    font-weight:normal;
+    font-size: 14px;
+    font-family:Sans-Serif;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header nav a:hover {
+    color: white;
+}
+.header.smaller {
+    height: 75px;
+}
+.header.smaller h1#logo {
+    width: 150px;
+    height: 75px;
+    font-size: 30px;
+}
+.header.smaller nav a {
+    line-height: 75px;
+}
+
+
+   </style>
+
+      <style type="text/css">
+ .black_overlay
+  {
+            height: 130%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            background-color: Black;
+            filter: alpha(opacity=80); /* internet explorer */
+            -khtml-opacity: 0.80; /* khtml, old safari */
+            -moz-opacity: 0.80; /* mozilla, netscape */
+            opacity: 0.80;
+
+        }
+        #info {
+           position: absolute;
+            top: 1%;
+            z-index: 1002;
+            vertical-align:middle;
+
+           }
+</style>
+
+    <script type="text/javascript">
+        window.addEventListener('mouseup', function (event) {
+            var box = document.getElementById('info');
+            var box1 = document.getElementById('bg-effect');
+            if (event.target != box && event.target.parentNode != box) {
+                box.style.display = 'none';
+                box1.style.display = 'none';
+            }
+        });
+</script>
+<script src="./careers_files/secureAnonymousFramework"></script><script type="text/javascript" charset="utf-8" async="" src="./careers_files/button.7db838345f9545c91ea4497f64abb814.js.download"></script>
+
+
+
+    <div id="BodyMaster" style="font-family:Sans-Serif;">
+    <form method="post" action="http://technopak.com/Careers.aspx" id="Form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTQyNzg5MTAxNw9kFgJmD2QWAgIDD2QWAgIBD2QWAgIBD2QWAgIBDxBkZBYBZmRkA6q7/Vdlw7vFm8tuPTyWvwl45Ekr2VVLZsQVN1DvPHY=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+
+<div align="center" class="main">
+
+<link href="./careers_files/tpk1.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="./careers_files/1.js.download"></script>
+    <script type="text/javascript" src="./careers_files/slides.min.jquery.js.download"></script>
+
+    <script type="text/javascript">
+
+
+
+        function ShowCareers() {
+            //document.getElementById('DivRecruitment').style.display = 'none';
+            document.getElementById('DivFAQ').style.display = 'none';
+            //document.getElementById('DivDivision').style.display = 'none';
+            document.getElementById('DivCareers').style.display = '';
+        }
+
+        function ShowFAQDiv() {
+            document.getElementById('DivCareers').style.display = 'none';
+            //document.getElementById('DivRecruitment').style.display = 'none';
+            //document.getElementById('DivDivision').style.display = 'none';
+            document.getElementById('DivFAQ').style.display = '';
+        }
+
+    </script>
+    <div id="cnt_outer1" style="padding-top:200px">
+        <div id="cnt1">
+            <div id="cnt_s1" class="fl">
+            </div>
+            <div id="cnt_image1" class="fl">
+
+               <div class="" align="left">
+                    <ul>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                    </ul>
+                </div>
+                <div id="container">
+                    <div id="example">
+                        <div>
+                            <img border="0" src="./careers_files/careers.jpg" alt="Slide 1">
+                          <div align="left" class="caption2">
+                          <span style="font-size:18px;">Current Openings</span><br>
+                <span style="margin-top:0px">
+                <select name="ctl00$MainContent$DDLopening" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$MainContent$DDLopening\&#39;,\&#39;\&#39;)&#39;, 0)" id="MainContent_DDLopening" style="margin-top:10px">
+	<option selected="selected" value="---------------Select---------------">---------------Select---------------</option>
+	<option value="Files/Hr-JD-Associate-Vice-President-Fashion.pdf">AVP-Fashion</option>
+	<option value="Files/Hr-JD-Associate-Director-APOPS.pdf">AD-APOPS</option>
+	<option value="Files/Hr-JD-Principal-Consultant-Retail.pdf">PC-Retail</option>
+	<option value="Files/Hr-JD-Principal-Consultant-Fashion.pdf">PC/SC-Fashion</option>
+	<option value="Files/Hr-JD-Senior-Consultant-APOPS.pdf">SC-APOPS</option>
+	<option value="Files/Hr-JD-Associate-Consultant-Food &amp; Agri.pdf">AC-Food &amp; Agriculture</option>
+
+</select>  </span>
+                        </div>
+                    </div>
+                        </div>
+
+
+                </div>
+            </div>
+            <div id="cnt_textarea1" class="fl">
+                <div id="cnt_textarea_imgcol" class="">
+                </div>
+                <div id="cnt_textarea_img" style="color: #27847f;  font-size: 25px; font-family: Sans-Serif;  text-align: left;
+                    float: left; padding-left: 20px;  vertical-align: middle; line-height:20px">
+                    <a style="color: #27847f;" href="javascript:ShowCareers();"><br>Careers</a> | <a style="color: #27847f;" href="javascript:ShowFAQDiv();">FAQs</a></div>
+                <div id="cnt_textarea_r03" class="fl">
+                    <div id="DivCareers">
+
+                            <h1 style="font-family: Sans-Serif; font-size:17px; Background-color:#093145; width:60px; padding:5px">
+                                Careers</h1>
+                            <p style="font-family: Sans-Serif; font-size:13px; line-height:20px;">
+                            We are a leading management consulting firm with a difference. Founded in 1992 on
+                            the principle of “concept” to “commissioning”, we are among
+                            the top 5 (and the largest homegrown) consulting firms in India by revenues. We
+                            are strategic advisors to a roster of over 800 marquee clients, and work closely
+                            with them during the ideation phase and then implementation including new business
+                            start-up and performance enhancement. One of our biggest strengths is our very deep
+                            and unique understanding of the Indian consumer, across all the sectors that we
+                            work in.</p><br>
+
+                           <h1 style="font-family: Sans-Serif; font-size:17px; Background-color:#093145; width:305px; padding:5px">Other Opportunities - <a href="http://technopak.com/GroupCompanies.aspx" target="_blank" style="color:white">
+                           Group Companies</a> </h1>
+<p style="font-family: Sans-Serif; font-size:13px">In case you don’t find a relevant opportunity in <b>current openings</b>,
+feel free to email us at :<br><a href="mailto:careers@technopak.com" style="color:#FFF; font-size:14px; font-weight:bold; line-height:20px;">
+careers@technopak.com</a></p>
+                    </div>
+
+                    <div id="DivFAQ" style="display: none;">
+                        <table width="100%" cellpadding="0" cellspacing="0">
+                            <tbody><tr>
+                                <td height="30" class="Careerssubhead">
+                                    <p>
+                                        </p><h1 style="font-family: Sans-Serif; font-size:17px; Background-color:#093145; width:110px; padding:5px">
+                                            Careers FAQs</h1>
+                                        <br>
+                                    <p></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="100%" height="88">
+                                    <table>
+                                        <tbody><tr>
+                                            <td width="100%">
+                                                <strong style="font-family: Sans-Serif; font-size:14px">What is the typical profile of the candidates we hire?</strong>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <p style="font-family: Sans-Serif; font-size:13px; line-height:20px;">
+                                                    We look for young, creative, and motivated individuals and lay great emphasis on
+                                                    their educational qualifications. Further, the quality of prior experience, in relevant
+                                                    sectors, is essential for all candidates, except in the case of fresh graduates.
+                                                    We always look to having a good mix of people from various backgrounds, both in
+                                                    terms of education and experience, so as to widen our knowledge pool.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="10">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <strong style="font-family: Sans-Serif; font-size:14px">What is the usual career path for a Technopak employee?</strong>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <p style="font-family: Sans-Serif; font-size:13px; line-height:20px;">
+                                                    A fresh graduate (with any professional degree and/or less than approximately two
+                                                    years of experience) will start as an Associate Consultant. Career growth is linked
+                                                    to performance, and a fast-track career is assured if the employee's performance
+                                                    is continually excellent.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="10">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <strong style="font-family: Sans-Serif; font-size:14px">What is the reporting structure prevalent within the
+                                                    organization?</strong>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <p style="font-family: Sans-Serif; font-size:13px; line-height:20px;">
+                                                    We believe in teamwork and while, for administrative purposes, we have various hierarchical
+                                                    levels within the organization, viz. Senior Vice President, Vice President, Associate
+                                                    Vice President, Associate Director, Principal Consultant, Senior Consultant, Consultant,
+                                                    and Associate Consultant. Every employee has to report to the manager in charge
+                                                    of the project on which he/she is working. Occasionally, an individual may have
+                                                    to work on more than one project at the same time.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="10">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <strong style="font-family: Sans-Serif; font-size:14px">Do we hire summer trainees?</strong>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <p style="font-family: Sans-Serif; font-size:13px; line-height:20px;">
+                                                    We do hire summer trainees as we believe this to be a good way of interacting with
+                                                    management schools. This provides students with a deep insight into our line of
+                                                    work, with projects ranging from market research and supply chain studies, to those
+                                                    based on our apparel operations. While we prefer to visit campuses for hiring summer
+                                                    trainees, we ask interested students, especially those from schools outside Delhi/NCR
+                                                    to send in their resumes. Subsequent to this, we interview shortlisted candidates.
+                                                    In case you are interested in doing a summer project with us next year, please email
+                                                    your resume to <a href="mailto:careers@technopak.com">careers@technopak.com</a></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="10">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <strong style="font-family: Sans-Serif; font-size:14px">What kind of projects can I expect to work on?</strong>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <p style="font-family: Sans-Serif; font-size:13px; line-height:20px;">
+                                                    Although individuals, especially at the Associate Consultant or Consultant level,
+                                                    typically work on projects relevant to their background, there are ample opportunities
+                                                    to work on other areas as well. Consultants are consciously staffed on projects
+                                                    in a manner which not only allows them to work with cross-functional teams but also
+                                                    gives them a chance to work on projects in the firm's various service areas. Those
+                                                    employed at the Associate Director level and above have sales targets with respect
+                                                    to their divisions and are also expected to cross-sell within the service areas.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="10">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <strong style="font-family: Sans-Serif; font-size:14px">What is the level of focus on training within the organization?</strong>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <p style="font-family: Sans-Serif; font-size:13px; line-height:20px;">
+                                                    There is tremendous emphasis on learning and knowledge-sharing within the organization.
+                                                    Besides the training programs coordinated by the HR division, training is also imparted
+                                                    while working on projects, and conducting client interactions. We believe that such
+                                                    hands-on experience successfully brings out the best qualities in people.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="10">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <strong style="font-family: Sans-Serif; font-size:14px">What is a typical day at Technopak?</strong>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <p style="font-family: Sans-Serif; font-size:13px; line-height:20px;">
+                                                    A workday at Technopak begins at 8:30 a.m. and ends at 5.30 p.m., which ensures
+                                                    that our employees get in and out ahead of rush hour traffic. We observe a five-day
+                                                    work week, with the expectation that all business will be taken care of in this
+                                                    duration. Only unusual delivery timelines may see you spending the odd Saturday
+                                                    at work.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="10">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <strong style="font-family: Sans-Serif; font-size:14px">What kind of work culture can one expect at Technopak?</strong>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%">
+                                                <p style="font-family: Sans-Serif; font-size:13px; line-height:20px;">
+                                                    The Technopak culture encourages team effort but places equal stress on an individual’s
+                                                    development. We are, for the most part, dynamic, young people who cherish individual
+                                                    perceptions, and inspire top-notch performance.</p>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+
+
+    <table width="100%" align="center" style="height:auto">
+    <tbody><tr>
+    <td>
+    <div width="100%" style="border-top: 1px dotted; margin-top:10px; height: 8px; width:100%">
+    </div>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <div align="center" width="100%" style="font-size: 12px;  font-family:sans-serif; width:100%; height: 34px;">
+    <a href="http://technopak.com/Technopak-TnC.aspx?page=policy">
+            Privacy Policy</a> | <a href="http://technopak.com/Technopak-TnC.aspx?page=terms">Terms and Conditions</a>
+        | <a href="http://technopak.com/ContactUs.aspx">Contact Us</a> | Copyright © 2017 Technopak Advisors
+        Pvt. Ltd. All rights reserved.<br><br>
+        </div>
+    </td>
+    </tr>
+    </tbody></table>
+
+    </form>
+
+<script type="text/javascript">
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-47540252-1', 'technopak.com');
+    ga('send', 'pageview');
+
+</script>
+
+
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="./careers_files/widget_iframe.049716a23792bca881820db70e17250b.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./careers_files/saved_resource.html"></iframe></div>
+
+{% endblock %}

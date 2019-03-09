@@ -1,0 +1,7 @@
+{% extends "music/master.html" %}
+ 
+{% block title %}{{song.s_title}}{% endblock %}
+{% block body %}
+
+<audio src="{{song.song_file.url}}" controls="controls">Play</audio>
+{%endblock%}

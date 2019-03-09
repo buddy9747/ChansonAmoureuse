@@ -1,0 +1,11 @@
+{% extends "music/master.html" %}
+
+{% block title %}{{album.title}}{% endblock %}
+{% block body %}
+
+{%for i in album.song_set.all%}
+<a href="\list\song\{{i.id}}"><h1>{{i.s_title}}</h1></a>
+<h2>{{i.s_artist}}</h2>
+
+{% endfor %}
+{%endblock%}

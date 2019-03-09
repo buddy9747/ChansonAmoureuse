@@ -1,0 +1,801 @@
+{% extends 'M4_Web/base.html' %}
+{% block title %} {% endblock %}
+{% load static %}
+
+
+
+{% block body %}
+
+
+    <script async="" src="./Food_files/analytics.js.download"></script><script id="twitter-wjs" src="./Food_files/widgets.js.download"></script><script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 500) {
+                    $(".header").addClass('smaller');
+                } else {
+                    $(".header").removeClass("smaller");
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        window.addEventListener('mouseup', function (event) {
+            var box = document.getElementById('info');
+            var box1 = document.getElementById('bg-effect');
+            if (event.target != box && event.target.parentNode != box) {
+                box.style.display = 'none';
+                box1.style.display = 'none';
+            }
+        });
+</script>
+   <style>
+   .header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: fixed;
+
+    z-index: 999;
+    background-image:url('images/gradient2.jpg');
+    border:solid;
+ border-bottom-width :3px;
+border-image:url('images/line.png') 0 0 20 0 repeat;
+
+}
+.header h1#logo {
+    display: inline=block;
+    vertical-align:top;
+   font-size: 60px;
+    line-height: 150px;
+    font-weight: 400;
+
+
+}
+
+.header ul
+{
+
+ height:180px;
+font-family:Sans-Serif;
+
+}
+.header li a {
+
+
+   color: #D3D3D3;
+   font-size: 14px;
+
+   line-height:25px;
+   padding-top:10px;
+
+   font-family:Sans-Serif;
+
+
+
+}
+.header li a:hover{color:#109276;  text-decoration:none;}
+.header nav {
+    display: inline=block;
+
+}
+.header nav a {
+
+    color: #D5D5D5;
+    font-weight: 700;
+    font-size: 14px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header span {
+    display: inline=block;
+    float:left;
+    margin-right:0px;
+}
+.header span a {
+    line-height: 150px;
+    margin-left:10px;
+    color: #D5D5D5;
+    font-weight:normal;
+    font-size: 14px;
+    font-family:Sans-Serif;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header nav a:hover {
+    color: white;
+}
+.header.smaller {
+    height: 75px;
+}
+.header.smaller h1#logo {
+    width: 150px;
+    height: 75px;
+    font-size: 30px;
+}
+.header.smaller nav a {
+    line-height: 75px;
+}
+
+
+   </style>
+
+      <style type="text/css">
+ .black_overlay
+  {
+            height: 130%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            background-color: Black;
+            filter: alpha(opacity=80); /* internet explorer */
+            -khtml-opacity: 0.80; /* khtml, old safari */
+            -moz-opacity: 0.80; /* mozilla, netscape */
+            opacity: 0.80;
+
+        }
+        #info {
+           position: absolute;
+            top: 1%;
+            z-index: 1002;
+            vertical-align:middle;
+
+           }
+</style>
+
+    <script type="text/javascript">
+        window.addEventListener('mouseup', function (event) {
+            var box = document.getElementById('info');
+            var box1 = document.getElementById('bg-effect');
+            if (event.target != box && event.target.parentNode != box) {
+                box.style.display = 'none';
+                box1.style.display = 'none';
+            }
+        });
+</script>
+<script src="./Food_files/secureAnonymousFramework"></script><script type="text/javascript" charset="utf-8" async="" src="./Food_files/button.7db838345f9545c91ea4497f64abb814.js.download"></script></head>
+<div id="BodyMaster" style="font-family:Sans-Serif;">
+    <form method="post" action="http://technopak.com/Technopak-FoodandAgri.aspx" id="Form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTIzNjUwNTQ2MWRkjXPm7F9J4W10jvmyPRsceupvJs6xnIZh83VIIzDAwM4=">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4066378F">
+</div>
+
+<div align="center" class="main">
+
+<script type="text/javascript">
+
+    $('html').click(function () {
+        $('#subscribe-pop').hide();
+    })
+
+    $('#footleft').click(function (e) {
+        e.stopPropagation();
+    });
+
+    $('#link').click(function (e) {
+        $('#subscribe-pop').toggle();
+    });
+
+
+</script>
+    <script type="text/javascript">
+        function showHide(d) {
+            debugger;
+
+            if (document.getElementById(d).style.display == "none") {
+                document.getElementById(d).style.display = "block";
+            }
+            else {
+                document.getElementById(d).style.display = "none";
+            }
+        }
+        function a() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Business Strategy ";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<ul id=\"newlioverride\"><ul><li><strong style=\"font-size:15px;\">Opportunity Assessment</strong></li> </ul> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Based on the company's mission, analyzing medium-to-long term relevant trends<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Exploring carefully the set of future scenarios<br>  <br><ul><li><strong style=\"font-size:15px;\">Identify Profitable Growth Opportunities</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Shortlisting profitable growth opportunities based on assessments<br>  <br><ul><li><strong style=\"font-size:15px;\">Evaluate Competitive Market Positions</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Performing detailed competition mapping in the area of  interest, including:<br>   &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Positioning<br>   &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Offering – Product and Price<br>   &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Performance<br>   &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Presence and Expansion Plans<br>  <br><ul><li><strong style=\"font-size:15px;\">Predict and Plan for Growth</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Defining target segment<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Positioning product, price and service mix<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Defining format(s)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Creating roll-out strategy<br>  <br><ul><li><strong style=\"font-size:15px;\">Prepare Well-informed Business Plans</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Estimating revenue potential,  investments, and/or expenses<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Projecting expected returns<br>  <br><ul><li><strong style=\"font-size:15px;\">Operating Model Assistance</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Developing own ventures<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Facilitating joint ventures<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Identifying master/regional franchisees</ul>";
+        }
+        function b() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Concept Development"; document.getElementById("cnt_textarea_r3").innerHTML = "<ul id=\"newlioverride\"><ul><li><strong style=\"font-size:15px;\">Conceptualize Ideas</strong></li> </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Understanding macro and micro trends<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Marrying trends with  company's DNA and developing the contours of a new concept<br>  <br><ul><li><strong style=\"font-size:15px;\">Market and  Consumer Feasibility Study</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Validating the concept developed  by conducting detailed market and consumer research<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Testing concepts with  consumers<br>  <br><ul><li><strong style=\"font-size:15px;\">Define Consumer Profile</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Identifying the target segment<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Defining the psychographics of the defined target segment<br>  <br><ul><li><strong style=\"font-size:15px;\">Develop Menu  and Price Offerings</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Evolving product and price mix conforming to the positioning of the concept<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Projecting detailed menu  costing of each product<br>  <br><ul><li><strong style=\"font-size:15px;\">Project Growth Plan</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Defining organizational structure<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Defining format(s)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Outlining roll-out strategy<br>  <br><ul><li><strong style=\"font-size:15px;\">Develop Detailed Business Plan</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Estimating revenue potential, investments, and/or expenses<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Projecting returns expected<br>  <br><ul><li><strong style=\"font-size:15px;\">Operating Model Assistance</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Launching own ventures<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Facilitating with joint ventures<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Connecting with master/regional franchisees</ul>";
+        }
+        function c() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Unit Economics Improvement	  ";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<ul id=\"newlioverride\"><ul><li><strong style=\"font-size:15px;\">Identify Concept Strengths and Weaknesses</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Identifying and building consensus on the strengths and weaknesses identified across concept attributes<br>  <br><ul><li><strong style=\"font-size:15px;\">Revitalize Concept Positioning</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Refocusing the brand's message on strengths<br>  <br><ul><li><strong style=\"font-size:15px;\">Evaluate Menu, Price, Format, and Location Strategy </strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Defining changes required in the overall concept<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Suggesting ways to improve processes<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Re-examining and  fine-tuning the format and location strategy<br>  <br><ul><li><strong style=\"font-size:15px;\">Develop Plans to Reach New Consumer Groups</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Defining marketing plans<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Preparing customer  relationship management programs<br>  <br><ul><li><strong style=\"font-size:15px;\">Improve Inventory Management</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Suggesting ways to  eliminate material wastage and reduce costs<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Reworking replenishment programs<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Refining procurement and vendor management<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Optimizing supply chain and logistics management<br>  <br><ul><li><strong style=\"font-size:15px;\">Evaluate and Rework  Restaurant  Employee Practices</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Planning compensations and benefits<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Designing training  manual and undertaking training sessions<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Creating grievance redressal mechanisms<br>  <br><ul><li><strong style=\"font-size:15px;\">Establish and Conduct Restaurant Audit</strong></li></ul>";
+        }
+        function d() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Implementation Assistance  ";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<ul id=\"newlioverride\"><ul><li><strong style=\"font-size:15px;\">Manage Project Schedules</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Scheduling all planned project activities<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Planning resources for each activity<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Defining areas of shared  responsibilities between the company, third party, and Technopak<br>  <br><ul><li><strong style=\"font-size:15px;\">Coordinate all key  activities e.g. branding, IT systems, supply chain, and organizational structure</strong></li></ul> <br><ul><li><strong style=\"font-size:15px;\">Develop Operations and Training Modules</strong></li></ul> <br><ul><li><strong style=\"font-size:15px;\">Complete Project  Management</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Preparing architectural design<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Developing the menu and  costing<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Fitting-out management<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Undertaking other coordination activities</ul>";
+        }
+        function e() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Consumer Insights";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<p style=\"font-size:15px;\">• Trends and Consumption Insights<br>• Shopper Insights<br>• Segmentation Studies<br>• Product and Concept Testing<br>• Post-launch Concept Testing/Feedback from Consumer</strong></p>"
+        };
+        function f() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Partner Search";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<ul id=\"newlioverride\"><ul><li><strong style=\"font-size:15px;\">Identify International Brands/Concepts</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Understanding brand/ concept in its entirety with respect to target segment, menu, price, and positioning<br>  <br><ul><li><strong style=\"font-size:15px;\">Understand Performance</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Understanding the brand's presence and  performance in international markets<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Benchmarking with similar concepts in the market<br>  <br><ul><li><strong style=\"font-size:15px;\">Business Strategy for the Local Market</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Defining business strategy for the local market<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Suggesting changes in menu, price, and positioning<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Defining formats and service mixes relevant to the  local market<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Defining operating model<br>  <br><ul><li><strong style=\"font-size:15px;\">Financial Planning</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Assisting in developing India-specific business/financial plans<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Assisting in developing brand term sheets/financials<br>  <br><ul><li><strong style=\"font-size:15px;\">Identify &  Shortlist Prospective Partner</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Creating a list of prospective partners<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Based on brand's DNA and requirements, shortlisting a prospective partner<br>  <br><ul><li><strong style=\"font-size:15px;\">Schedule Meetings</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Coordinating the organizing/scheduling of meetings between brands and prospective partners<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Performing a pivotal role in discussions<br>  <br><ul><li><strong style=\"font-size:15px;\">Signing of MoU</strong><br>  <br></li></ul><ul><li><strong style=\"font-size:15px;\">Partner Selection</strong></li></ul>";
+        }
+        function g() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Business Strategy "; document.getElementById("cnt_textarea_r3").innerHTML = "<ul id=\"newlioverride\"> <ul><li><strong style=\"font-size:15px;\">Opportunity Assessment</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Analyzing industry developments and medium-to-long term relevant business growth opportunities<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Conducting feasibility studies and preparing detailed project reports<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Exploring carefully the set of future scenarios <br>  <br> <ul><li><strong style=\"font-size:15px;\">India Entry Strategy/Market Entry Strategy</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Developing a comprehensive business  strategy<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Selecting technology in line with product mix<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Devising entry strategy including target segment, product, market, price, channel mix,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;service mix positioning, operating model assistance, etc.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Preparing roadmap for entering specific industry sector<br> <br><ul><li><strong style=\"font-size:15px;\">Competitive Assessment</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Conducting a detailed competition mapping in the area of interest such as positioning,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;product offering and price, performance and turnover, expansion plan, etc.<br> <br> <ul><li><strong style=\"font-size:15px;\">Business Plan Development</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Estimating revenue potential, investments and/or expenses, and returns expected<br> <br><ul><li> <strong style=\"font-size:15px;\">Business Expansion Planning</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Evaluating expansion opportunities<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Devising workable business plans<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Generating business scenarios and planning finances";
+        }
+        function h() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Supply Chain Assessment";
+
+            document.getElementById("cnt_textarea_r3").innerHTML = "<ul id=\"newlioverride\"><ul><li><strong style=\"font-size:15px;\">Supply Chain Strategy</strong></li> </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Designing and optimizing supply networks<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Performing strategic sourcing and collaborative planning<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Outlining procurement  strategies<br>      <br>  <ul><li><strong style=\"font-size:15px;\">Inventory, Warehouse, and Logistics</strong></li>  </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Facilitating DC  design and implementation<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>Performing WMS/TMS  selection and configuration support<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Creating replenishment  strategy and inventory policy<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Managing customer  orders<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Planning routes and optimizing transport <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Creating and Implementing logistics outsourcing strategy <br>      <br><ul><li><strong style=\"font-size:15px;\">Process  Re-engineering</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Ascertaining performance  improvement and cost rationalization<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Establishing and benchmarking KPIs";
+        }
+        function i() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Performance Audit"; document.getElementById("cnt_textarea_r3").innerHTML = "<ul id=\"newlioverride\">  <ul><li><strong style=\"font-size:15px;\">Revitalize Business Positioning</strong></li> </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Identifying and building consensus on the strengths and weaknesses identified across business attributes<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Refocusing the brand's message along strengths<br>      <br><ul><li><strong style=\"font-size:15px;\">Evaluate Product, Price, Market, and Location Strategy </strong></li>  </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Defining the changes required in the overall business<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Suggesting ways to improve processes<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Re-examining  and fine-tuning the format and location strategy<br>      <br><ul><li><strong style=\"font-size:15px;\">Address Opportunities for Improvement</strong></li>  </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Defining a new marketing plan<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Crafting a customer relationship management program<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Improving inventory management<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Ensuring waste management and cost reduction <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Reworking replenishment programs<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Managing procurement  and vendors <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Managing supply chain and logistics<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Evaluating  employee compensation and benefits<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Designing  training manuals and undertaking training sessions<br>      <br><ul><li><strong style=\"font-size:15px;\">Conduct and Establish Plant Audit Process</strong></li>  </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Conducting revenue  enhancement activities<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Optimizing costs,  processes, and operations";
+        }
+        function j() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Turnkey Solutions  "; document.getElementById("cnt_textarea_r3").innerHTML = "<ul id=\"newlioverride\">  <strong style=\"font-size:15px;\"><ul><li>Feasibility Studies and Business Planning</strong></li>  </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Conducting feasibility studies <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Developing business plans <br><br><ul><li> <strong style=\"font-size:15px;\">Technology/Machinery Selection</strong></li>  </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Mandating technical specifications<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Assisting in vendor selection and coordination <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Managing bid processes <br><br> <ul><li><strong style=\"font-size:15px;\">Product Selection and Development</strong></li>  </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Testing and improving products<br><br> <ul><li>  <strong style=\"font-size:15px;\">Implementation Support</strong></li>  </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Performing pre-design activities <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Providing project management consultancy <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Providing Construction Management Consultancy";
+        }
+        function k() {
+            document.getElementById("cnt_textarea_img").innerHTML = "	Sector Opportunity Scan ";
+
+            document.getElementById("cnt_textarea_r3").innerHTML = "<ul  id=\"newlioverride\"><ul><li><strong style=\"font-size:15px;\">Industry/Sector-Specific Studies</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Creating feasibility studies/sector report  cards <br>      <br><ul><li><strong style=\"font-size:15px;\">Conceptualize Business Ideas</strong></li>  </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Understanding the macro and micro  trends <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Marrying trends with the company's DNA and  developing contours of new business concepts <br>    <br><ul><li><strong style=\"font-size:15px;\">Define Processing Mix or Crop Mix</strong></li>  </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Identifying target markets<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Defining production mix based on raw  materials, production infrastructure, and market demand <br>      <br><ul><li><strong style=\"font-size:15px;\">Marketing and Procurement Planning</strong></li>  </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Identifying catchment areas <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Developing supply chains<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Devising marketing and promotional  plans <br>      <br> <ul><li><strong style=\"font-size:15px;\">Equipment,  Machinery, and Infrastructure Planning</strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Assessing infrastructure requirements<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Identifying right mix of technology and equipment <br>      <br><ul><li><strong style=\"font-size:15px;\">Land  Use Planning</strong></li> </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Selecting land and conducting soil survey <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Planning land use<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Creating project layout and architectural  designs <br>      <br>    <ul><li> <strong style=\"font-size:15px;\">Develop  Detailed Business Plans</strong></li>  </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Estimating revenue  potential, investments and/or expenses, and returns expected";
+        }
+        function l() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Implementation Assistance";
+
+            document.getElementById("cnt_textarea_r3").innerHTML = "<ul  id=\"newlioverride\">  <strong style=\"font-size:15px;\"><ul><li>Project  Management Consulting </strong></li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Managing the overall project for the timely execution of projects <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Coordinating with the client <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Managing project  schedules, coordinating with vendors and monitoring projects <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Developing  operations and training modules <br>      <br><ul><li><strong style=\"font-size:15px;\">Construction Management Support </strong></li>  </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Supervising the project<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Planning the factory  layout <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Engineering all  operations and systems <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;Implementing  production and quality procedures";
+        }
+
+        function ClientList() {
+            document.getElementById("cnt_textarea_r1").style.display = "none";
+            document.getElementById("cnt_textarea_r2").style.display = "none";
+            document.getElementById("cnt_textarea_r3").innerHTML = document.getElementById("DivClientList").innerHTML;
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+        function Team() {
+            document.getElementById("cnt_textarea_r1").style.display = "none";
+            document.getElementById("cnt_textarea_r2").style.display = "none";
+            document.getElementById("cnt_textarea_r3").innerHTML = document.getElementById("DivFoodTeam").innerHTML;
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+        function IndustrySegment() {
+            document.getElementById("cnt_textarea_r1").style.display = "none";
+            document.getElementById("cnt_textarea_r2").style.display = "none";
+            document.getElementById("cnt_textarea_r3").innerHTML = document.getElementById("DivIndustrySegment").innerHTML;
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+
+        function Resources() {
+            document.getElementById("cnt_textarea_r1").style.display = "none";
+            document.getElementById("cnt_textarea_r2").style.display = "none";
+            document.getElementById("cnt_textarea_r3").innerHTML = document.getElementById("DivResources").innerHTML;
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+    <script type="text/javascript" src="./Food_files/1.js.download"></script>
+    <script type="text/javascript" src="./Food_files/slides.min.jquery.js.download"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#slides').slides({
+                preload: true,
+                preloadImage: 'img/loading.gif',
+                play: 3000,
+                pause: 1000,
+                hoverPause: true,
+                animationStart: function (current) {
+                    $('.caption1').animate({
+                        top: 258
+                    }, 200);
+                    $('.caption').animate({
+                        top: 769
+                    }, 200);
+                },
+                animationComplete: function (current) {
+                    $('.caption1').animate({
+                        top: 258
+                    }, 200);
+                    $('.caption').animate({
+                        top: 769
+                    }, 200);
+                },
+                slidesLoaded: function () {
+                    $('.caption1').animate({
+                        top: 258
+                    }, 200);
+                    $('.caption').animate({
+                        top: 769
+                    }, 200);
+                }
+            });
+        });
+    </script>
+    <link href="./Food_files/tpkFood.css" rel="stylesheet" type="text/css">
+    <div id="cnt_outer" style="padding-top:200px; font-family:Sans-Serif; ">
+        <div id="cnt">
+            <div id="cnt_s" class="fl">
+            </div>
+            <div id="cnt_image" class="fl">
+                <div class="caption" align="left" style="margin-top: -48px; top: 769px;">
+                    <ul>
+                        <li style="padding-top: 10px;">| &nbsp;<a href="javascript:Resources();">Resources</a></li>
+                        <li>| &nbsp;<a href="http://technopak.com/Files/Technopak-Food-Services-&amp;-Agriculture-Credentials-AUG-2017.pdf">Credentials</a></li>
+                        <li>| &nbsp;<a href="javascript:ClientList();">Client List</a></li>
+                        <li>| &nbsp;<a href="javascript:Team();">Technopak's Food Services &amp; Agriculture Team</a></li>
+                        <li>| &nbsp;<a href="javascript:IndustrySegment();">Industry Segments We Serve</a></li>
+                    </ul>
+                </div>
+                <div id="container">
+                    <div id="example">
+                        <div id="slides">
+                            <div class="slides_container" style="overflow: hidden; position: relative; display: block;">
+                                <div class="slides_control" style="position: relative; width: 1350px; height: 661px; left: -450px;"><div class="slide" style="position: absolute; top: 0px; left: 450px; z-index: 0; display: none;">
+                                    <img border="0" src="./Food_files/Food3.jpg" width="450" height="662" alt="Slide 1"></div><div class="slide" style="position: absolute; top: 0px; left: 450px; z-index: 0; display: none;">
+                                    <img border="0" src="./Food_files/Food2.jpg" width="450" height="662" alt="Slide 1"></div><div class="slide" style="position: absolute; top: 0px; left: 450px; z-index: 5; display: block;">
+                                    <img border="0" src="./Food_files/Food1.jpg" width="450" height="662" alt="Slide 1"></div></div>
+
+
+                            </div>
+                        <ul class="pagination"><li class=""><a href="http://technopak.com/Technopak-FoodandAgri.aspx#0">1</a></li><li class=""><a href="http://technopak.com/Technopak-FoodandAgri.aspx#1">2</a></li><li class="current"><a href="http://technopak.com/Technopak-FoodandAgri.aspx#2">3</a></li></ul></div>
+                    </div>
+                </div>
+            </div>
+            <div id="cnt_textarea" class="fl" style="font-family:Sans-Serif;">
+                <div id="cnt_textarea_r1" class="fl">
+                    <table width="574" border="0">
+                        <tbody><tr>
+                            <td colspan="3">
+                                <ul>
+                                    <li class="size"><h1 style="font-size:14px; font-family:Sans-Serif; font-weight:bold;">SERVICES WE OFFER IN FOOD SERVICES &amp; AGRICULTURE</h1></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="261" style="font-size: 12px; font-family:Sans-Serif; line-height: 18px;
+                                font-weight: bold;">
+                                <p style="font-size: 13px; font-family:Sans-Serif;">
+                                    <strong>FOOD &amp; AGRICULTURE </strong>
+                                    <br>
+                                </p>
+                            </td>
+                            <td width="303" style="padding-left: 50px;  font-size: 13px;
+                                line-height: 18px; font-weight: bold; font-family:Sans-Serif;">
+                                <strong>FOOD &amp; BEVERAGE</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: to; font-family:Sans-Serif; font-size:12px">
+                                <ul style="font-size: 12px; font-family:Sans-Serif;">
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:g()">BUSINESS STRATEGY </a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:h()">SUPPLY CHAIN ASSESSMENT </a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:i()">PERFORMANCE AUDIT </a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:j()">TURNKEY SOLUTIONS </a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:k()">SECTOR OPPORTUNITY SCAN </a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:l()">IMPLEMENTATION ASSISTANCE </a></li>
+                                </ul>
+                            </td>
+                            <td style="padding-left: 50px; vertical-align: top; padding-top: 0px; border-left: 1px dotted; font-family:Sans-Serif; font-size:12px">
+                                <ul style="font-size: 12px; font-family:Sans-Serif;">
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:a()">BUSINESS STRATEGY </a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:b()">CONCEPT DEVELOPMENT </a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:c()">UNIT ECONOMICS IMPROVEMENT </a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:d()">IMPLEMENTATION ASSISTANCE</a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:e()">CONSUMER INSIGHTS</a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:f()">PARTNER SEARCH </a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                    <br>
+                </div>
+                <div id="cnt_textarea_r2" class="fl">
+
+                    <div id="cnt_textarea_img" style="color: #c13014; font-size: 35px; padding-top:17px; text-align: left;
+                        float: left; padding-left: 20px; font-family: San-serif; vertical-align: middle;">
+                        Food Services &amp; Agriculture</div>
+                </div>
+                <div id="cnt_textarea_r3" class="fl" style="font-family:Sans-Serif;">
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        The production, distribution, and sale of agricultural products influences a nation's
+                        sustainability, be it in the area of employment or economical objectives. Operating
+                        in this sector requires formulating strategies that encourage satisfactory farm-to-fork
+                        food chains and, at the same time, address the requirements of customers while catering
+                        to domestic demand.
+                        <br>
+                        <br>
+                        Technopak has a team of established domain experts that builds and enhances the
+                        business performance of organizations working in, or willing to foray into, the
+                        Food Services &amp; Agriculture sector. Our end-to-end solutions are customized as per business
+                        requirements and capabilities and we continuously strive to create strong industry
+                        relationships and work toward establishing a global footprint.
+                        <br>
+                        <br>
+                        We deliver a wide range of services to organizations which operate or wish to operate
+                        in the Food Services &amp; Agriculture sector, in India as well as internationally.
+                    </p>
+                    <p>
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="DivClientList" style="display: none; font-family:Sans-Serif;" class="fl">
+        <table>
+            <tbody><tr>
+                <td>
+                                     <ul>
+                                    <li align="center">
+                    <h1 style="font-size:18px; font-weight:bold; text-decoration:underline; color:White; font-family:Sans-Serif;">
+                       Client List - Food Services &amp; Agriculture </h1>
+                      </li> <li>&nbsp;</li>
+                      </ul>
+
+                    <ul style="line-height: 25px; font-family:Sans-Serif; font-size:12px">
+                        <li>Agricultural and Processed Food Products Export Development Authority (APEDA)</li>
+                        <li>Blue Star Ltd.</li>
+                        <li>Gopaljee Dairy Foods Pvt. Ltd.</li>
+                        <li>Honeywell International Inc.</li>
+                        <li>IEP Fund Advisors Pvt. Ltd.</li>
+                        <li>International Finance Cooperation (IFC), The World Bank Group</li>
+                        <li>Japan External Trade Organization (JETRO)</li>
+                        <li>Jharkand Mega Food Park Pvt. Ltd.</li>
+                        <li>K.P.R. Fertilisers Ltd.</li>
+                        <li>L E Pritchitt &amp; Co. Ltd.</li>
+                        <li>Northwest Venture Capital</li>
+                        <li>Patanjali Food and Herbal Park Pvt. Ltd.</li>
+                        <li>Reliance ADAG Group </li>
+                        <li>Turkish Hazelnut Promotion Group (FTG)</li>
+                         </ul>
+                </td>
+                <td style="padding-left: 10px; padding-top: 35px;">
+                    <p align="left">
+                        &nbsp;</p>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    <div id="DivFoodTeam" style="display: none; font-family:Sans-Serif; " class="fl">
+        <table>
+            <tbody><tr>
+                <td>
+                    <h1 style="font-family:Sans-Serif; font-size:17px">
+                        <strong>Team Food Services &amp; Agriculture</strong>
+                        <br>
+                        <br>
+                    </h1>
+                    <ul style="font-family:Sans-Serif; font-size:13px">
+                        <li><strong>Saloni Nangia</strong><br>
+                            President
+                            <br>
+                            <a href="mailto:saloni.nangia@technopak.com">saloni.nangia@technopak.com</a></li>
+                        <br>
+
+                        <li></li>
+                    </ul>
+                    <p>
+                        &nbsp;</p>
+                </td>
+                <td style="padding-left: 10px; padding-top: 35px;">
+                    <p>
+                        &nbsp;</p>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    <div id="DivIndustrySegment" style="display: none; font-family:Sans-Serif; float:left;">
+        <table>
+        <tbody><tr>
+                            <td colspan="3">
+                             <h1 style="font-family:Sans-Serif; font-size:16px; line-height:30px">
+                        <strong>Industry Segments We cover :</strong>
+                        <br>
+
+                    </h1>
+                                <ul style="font-family:Sans-Serif; font-size:13px; line-height:18px">
+                                    <li class="size"> <strong>Solutions to transform the Food Services &amp; Agriculture sector</strong><br>
+                                    <br>
+
+                        At Technopak, we provide tailored solutions that are relevant to your organization,
+                        help you in transforming your business and accelerating its growth. Our team of
+                        consultants assists, guides, and stimulates you to move forward and make a mark
+                        in the Food Services &amp; Agriculture sector.<br><br></li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                         <tr>
+                            <td width="300" style="text-transform: capitalize; font-family:Sans-Serif; font-size:13px; line-height: 18px;
+                                font-weight: bold;">
+                                <p style="font-family:Sans-Serif; font-size:13px;">
+                                    <strong>FOOD &amp; BEVERAGE</strong>
+                                    <br>
+                                </p>
+                            </td>
+                            <td width="474" style="padding-left: 50px; text-transform: capitalize; font-family:Sans-Serif; font-size:13px; line-height: 18px;">
+                                <strong>FOOD &amp; AGRICULTURE  </strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top; width:30px; border-right:1px dotted; font-family:Sans-Serif; font-size:13px">
+
+                              <div id="parent" style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px"><a href="javascript:showHide(&#39;c0&#39;);">Restaurants</a>
+                              </div>
+
+                             <div id="c0" style="display:none; font-family:Sans-Serif; font-size:13px; text-indent:5px; line-height:20px">
+                                      <ul style="font-family:Sans-Serif; font-size:13px;">
+                                    <li> • Fine Dining</li>
+                                    <li> • Casual Dining</li>
+                                    <li> • Quick Service Restaurants </li>
+                                    </ul>
+                                    </div>
+                                    <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px">
+                                    <a href="javascript:showHide(&#39;c1&#39;);"> Bar &amp; Lounges </a></div>
+                                    <div id="c1" style="display:none; font-family:Sans-Serif; text-indent:5px; font-size:13px; line-height:20px">
+                                    <ul style="font-size:13px">
+                                     <li> • Night Clubs</li>
+                                    <li> • Sports Bars</li>
+                                    <li> • Concept Lounges</li>
+                                    </ul>
+                                    </div>
+
+                                    <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px">
+                                    <a href="javascript:showHide(&#39;c2&#39;);" style="font-weight:bold;font-weight:bold; font-size:13px"> Cafés and Parlors </a></div>
+                                     <div id="c2" style="display:none; font-family:Sans-Serif; text-indent:5px; font-size:13px; line-height:20px">
+                                    <ul style="font-family:Sans-Serif; font-size:13px">
+                                     <li> • Concept Cafés and Parlors</li>
+                                     <li> • Bakeries and Confectionaries</li>
+                                     <li> • Frozen Desserts </li>
+                                    </ul>
+                                    </div>
+                                    <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px">
+                                     <a href="javascript:showHide(&#39;c3&#39;);" style="font-weight:bold;font-weight:bold; font-size:13px"> Food Services Retail </a></div>
+                                      <div id="c3" style="display:none; font-family:Sans-Serif; text-indent:5px; font-size:13px; line-height:20px">
+                                    <ul style="font-family:Sans-Serif; font-size:13px">
+                                     <li> •  Stores and Kiosks</li>
+                                     <li> • Food Courts </li>
+                                     </ul>
+                                     </div>
+                                     <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px">
+                                      <a href="javascript:showHide(&#39;c4&#39;);" style="font-weight:bold; font-size:13px"> Catering </a></div>
+                                       <div id="c4" style="display:none; font-family:Sans-Serif; text-indent:5px; font-size:13px; line-height:20px">
+                                    <ul style="font-family:Sans-Serif; font-size:13px">
+                                     <li> • Corporate Catering</li>
+                                     <li> • Travel Catering </li>
+                                      <li> • Institutional Catering</li>
+                                     <li> • Occasional Catering</li>
+                                     </ul>
+                                     </div>
+                                     <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px">
+                                      <a href="javascript:showHide(&#39;c5&#39;);" style="font-weight:bold; font-size:13px"> Venture Capitalists </a></div>
+                                       <div id="c5" style="display:none; font-family:Sans-Serif; text-indent:5px; font-size:13px; line-height:20px">
+                                    <ul style="font-family:Sans-Serif; font-size:13px">
+                                     <li> • Angel Funds</li>
+                                     <li> • Venture Funds </li>
+                                      <li> • Private Equity Firms</li>
+                                      </ul>
+                                      </div>
+                                      <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px">
+                                       <a href="javascript:showHide(&#39;c6&#39;);" style="font-weight:bold; font-size:13px"> Government &amp; Multilaterals </a></div>
+                                        <div id="c6" style="display:none; font-family:Sans-Serif; text-indent:5px; font-size:13px; line-height:20px">
+                                    <ulstyle="font-family:sans-serif; font-size:13px"="">
+                                     <li> • Indian Government</li>
+                                     <li> • Foreign Multilaterals </li>
+
+                                     </ulstyle="font-family:sans-serif;></div>
+                                     <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px">
+                                       <a href="javascript:showHide(&#39;c7&#39;);" style="font-weight:bold; font-size:13px"> Logistics </a></div>
+                                        <div id="c7" style="display:none; font-family:Sans-Serif; text-indent:5px; font-size:13px; line-height:20px">
+                                    <ul>
+                                     <li> • Cold Chain Logistics</li>
+                                     <li> • Ambient Logistics </li>
+                                     </ul>
+                                     </div>
+                                     <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px">
+                                     <a href="javascript:showHide(&#39;c8&#39;);" style="font-weight:bold; font-size:13px"> Equipment Manufacturers </a></div>
+                                       <div id="c8" style="display:none;font-family:Sans-Serif; text-indent:5px; font-size:13px; line-height:20px">
+                                    <ul style="font-family:Sans-Serif; font-size:13px">
+                                     <li> • Restaurant Kitchen Equipment</li>
+                                     <li> • Central Kitchen Equipment </li>
+                                      <li> • Processing Plant Equipment</li>
+                                     <li> • Commissary Equipment </li>
+                                     </ul>
+                                     </div>
+                                     <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:20px">
+                                     <a href="http://technopak.com/Technopak-FoodandAgri.aspx#" style="font-weight:bold; font-size:13px"> Raw Material Providers </a></div>
+
+                            </td>
+
+                            <td style="padding-left: 50px; vertical-align: top; padding-top: 0px;">
+                                <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px">
+                                    <a href="javascript:showHide(&#39;c9&#39;);" style="font-weight:bold; font-size:13px"> Farming Companies</a></div>
+                                    <div id="c9" style="display:none; font-family:Sans-Serif;  font-size:13px; text-indent:5px; line-height:20px">
+                                    <ul>
+                                    <li> • Agriculture Production </li>
+                                    <li> • Horticulture – F&amp;V, Spices, Floriculture </li>
+                                    <li> • Allied - Dairy Farms, Poultry Farms, Fish Farms</li>
+                                    <li> • Contract Farming and Corporate Farming</li>
+                                    <li> • Food Parks </li>
+                                    </ul>
+                                    </div>
+                                      <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px"><a href="javascript:showHide(&#39;c10&#39;);" style="font-weight:bold; font-size:13px"> Food Processing Companies</a></div>
+                                     <div id="c10" style="display:none; font-family:Sans-Serif; font-size:13px; text-indent:5px; line-height:20px">
+                                    <ul style="font-family:Sans-Serif; font-size:13px">
+
+                                    <li> • Juice, Pulp, Concentrate Processing </li>
+                                    <li> • Packaged Food Processing </li>
+                                    <li> • Frozen Food Processing </li>
+                                    <li> • Bakery and Confectionary</li>
+                                    <li> • Fish, Poultry, and Meat Processing</li>
+                                    <li> • Alcoholic Beverages</li>
+                                    </ul>
+                                    </div>
+                                      <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px"><a href="javascript:showHide(&#39;c11&#39;);" style="font-weight:bold; font-size:13px"> Cold Chain Solution Providers</a></div>
+                                      <div id="c11" style="display:none; font-family:Sans-Serif; font-size:13px; text-indent:5px; line-height:20px">
+                                    <ul style="font-family:Sans-Serif; font-size:13px">
+                                    <li> • Panel, Door, and Complete Cold Chain Solution </li>
+                                    <li> • Cold Chain Equipments Providers </li>
+                                    </ul>
+                                    </div>
+
+                                      <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px"><a href="javascript:showHide(&#39;c12&#39;);" style="font-weight:bold; font-size:13px"> Technology Providers</a></div>
+                                      <div id="c12" style="display:none; font-family:Sans-Serif; font-size:13px; text-indent:5px; line-height:20px">
+                                    <ul>
+                                    <li> • Equipment and Machinery Providers </li>
+                                    <li> • Infrastructure Developers</li>
+                                    </ul>
+                                    </div>
+                                     <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px"><a href="javascript:showHide(&#39;c13&#39;);" style="font-weight:bold; font-size:13px"> Other Service Providers</a></div>
+                                      <div id="c13" style="display:none; font-family:Sans-Serif; font-size:13px; text-indent:5px; line-height:20px">
+                                    <ul style="font-family:Sans-Serif; font-size:13px">
+                                    <li> • Information Technology </li>
+                                    <li> • Logistics Companies </li>
+                                    <li> • Products/Services Suppliers </li>
+                                    <li> • Warehouse Companies</li>
+                                    </ul>
+                                    </div>
+
+                                    <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px"><a href="javascript:showHide(&#39;c14&#39;);" style="font-weight:bold; font-size:13px"> Venture Capitalists</a></div>
+                                     <div id="c14" style="display:none; font-family:Sans-Serif; font-size:13px; text-indent:5px; line-height:20px">
+                                     <ul style="font-family:Sans-Serif; font-size:13px">
+                                    <li> • Private Equity firms </li>
+                                    </ul>
+                                    </div>
+                                    <div style="font-family:Sans-Serif; font-weight:bold; font-size:13px; line-height:25px"><a href="javascript:showHide(&#39;c15&#39;);" style="font-weight:bold; font-size:13px"> Government &amp; Multilaterals</a></div>
+                                     <div id="c15" style="display:none; font-family:Sans-Serif; text-indent:5px; font-size:13px">
+                                    <ul style="font-family:Sans-Serif; font-size:13px; line-height:20px">
+                                    <li> • Indian Government </li>
+                                    <li> • Foreign Multilaterals </li>
+                                </ul>
+                                </div>
+                                </td>
+
+                        </tr>
+
+
+        </tbody></table>
+    </div>
+    <div id="DivResources" style="display: none; font-family:Sans-Serif; font-size:13px" class="fl">
+        <table>
+            <tbody><tr>
+                <td>
+                    <h1 style="font-family:Sans-Serif; font-size:17px">
+                        <strong>Resources</strong></h1>
+                    <br>
+                    <h2>
+                        This section comprises new and archived publications and pieces written by thought
+                        leaders.
+                    </h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    <div style="font-family:Sans-Serif; font-size:14px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px">
+                            INDIA: World’s Emerging Food Leader</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        The Indian Agribusiness and Food sector is one of critical importance, not only because of its contribution to the country’s Gross Domestic Product (GDP) but also because of the number of people it employs and its capacity as a lever for achieving food security and a tool for bringing about inclusive and sustainable development. This report provides a holistic perspective on this sector, for which reason it has been titled “Farm to Fork”, as it covers the entire ecosystem.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:12px">
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=510" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                    <div style="font-family:Sans-Serif; font-size:14px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px">
+                            India Food Services Trends</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        This Outlook captures some expected trends for the year ahead, both on the consumer as well as operator fronts. These cover various aspects including operational efficiency, social marketing, choice of menus and concepts as well as their extensions, as also emerging F&amp;B destinations.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:12px">
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=506" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                    <div style="font-family:Sans-Serif; font-size:14px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px">
+                            India’s Food Sector </b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        This report addresses some of the key interventions that are necessary to ensure a sustained impetus for the sector’s growth, both at the farm level and the processing level. It also highlights key sectors within food processing for which a rapid growth is anticipated in the years to come; key business opportunities within these sectors are also spelt out. This report also focuses on the investment potential and stresses on the key challenges that need to be addressed.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:12px">
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=505" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                    <div style="font-family:Sans-Serif; font-size:14px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px">
+                            The Indian Food Processing Industry</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px">
+                        India can be defined clearly as a "Land of Gaps" and thus, a "Land of Opportunities". These gaps and the aligned opportunities are two sides of the same coin which has a vital impact on the production of food, and on ecosystem security. It is clear that the country's much-vaunted production potential is still unrealized.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:12px">
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=205" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+
+        </div>
+
+
+    <table width="100%" align="center" style="height:auto">
+    <tbody><tr>
+    <td>
+    <div width="100%" style="border-top: 1px dotted; margin-top:10px; height: 8px; width:100%">
+    </div>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <div align="center" width="100%" style="font-size: 12px;  font-family:sans-serif; width:100%; height: 34px;">
+    <a href="http://technopak.com/Technopak-TnC.aspx?page=policy">
+            Privacy Policy</a> | <a href="http://technopak.com/Technopak-TnC.aspx?page=terms">Terms and Conditions</a>
+        | <a href="http://technopak.com/ContactUs.aspx">Contact Us</a> | Copyright © 2017 Technopak Advisors
+        Pvt. Ltd. All rights reserved.<br><br>
+        </div>
+    </td>
+    </tr>
+    </tbody></table>
+
+    </form>
+
+<script type="text/javascript">
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-47540252-1', 'technopak.com');
+    ga('send', 'pageview');
+
+</script>
+
+
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="./Food_files/widget_iframe.049716a23792bca881820db70e17250b.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./Food_files/saved_resource.html"></iframe></div>
+
+{% endblock %}

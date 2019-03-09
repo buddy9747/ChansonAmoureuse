@@ -1,0 +1,692 @@
+{% extends 'M4_Web/base.html' %}
+{% block title %} {% endblock %}
+{% load static %}
+
+{% block body %}
+
+        <script async="" src="./Healthcare_files/analytics.js.download"></script><script id="twitter-wjs" src="./Healthcare_files/widgets.js.download"></script><script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 500) {
+                    $(".header").addClass('smaller');
+                } else {
+                    $(".header").removeClass("smaller");
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        window.addEventListener('mouseup', function (event) {
+            var box = document.getElementById('info');
+            var box1 = document.getElementById('bg-effect');
+            if (event.target != box && event.target.parentNode != box) {
+                box.style.display = 'none';
+                box1.style.display = 'none';
+            }
+        });
+</script>
+   <style>
+   .header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: fixed;
+
+    z-index: 999;
+    background-image:url('images/gradient2.jpg');
+    border:solid;
+ border-bottom-width :3px;
+border-image:url('images/line.png') 0 0 20 0 repeat;
+
+}
+.header h1#logo {
+    display: inline=block;
+    vertical-align:top;
+   font-size: 60px;
+    line-height: 150px;
+    font-weight: 400;
+
+
+}
+
+.header ul
+{
+
+ height:180px;
+font-family:Sans-Serif;
+
+}
+.header li a {
+
+
+   color: #D3D3D3;
+   font-size: 14px;
+
+   line-height:25px;
+   padding-top:10px;
+
+   font-family:Sans-Serif;
+
+
+
+}
+.header li a:hover{color:#109276;  text-decoration:none;}
+.header nav {
+    display: inline=block;
+
+}
+.header nav a {
+
+    color: #D5D5D5;
+    font-weight: 700;
+    font-size: 14px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header span {
+    display: inline=block;
+    float:left;
+    margin-right:0px;
+}
+.header span a {
+    line-height: 150px;
+    margin-left:10px;
+    color: #D5D5D5;
+    font-weight:normal;
+    font-size: 14px;
+    font-family:Sans-Serif;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header nav a:hover {
+    color: white;
+}
+.header.smaller {
+    height: 75px;
+}
+.header.smaller h1#logo {
+    width: 150px;
+    height: 75px;
+    font-size: 30px;
+}
+.header.smaller nav a {
+    line-height: 75px;
+}
+
+
+   </style>
+
+      <style type="text/css">
+ .black_overlay
+  {
+            height: 130%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            background-color: Black;
+            filter: alpha(opacity=80); /* internet explorer */
+            -khtml-opacity: 0.80; /* khtml, old safari */
+            -moz-opacity: 0.80; /* mozilla, netscape */
+            opacity: 0.80;
+
+        }
+        #info {
+           position: absolute;
+            top: 1%;
+            z-index: 1002;
+            vertical-align:middle;
+
+           }
+</style>
+
+    <script type="text/javascript">
+        window.addEventListener('mouseup', function (event) {
+            var box = document.getElementById('info');
+            var box1 = document.getElementById('bg-effect');
+            if (event.target != box && event.target.parentNode != box) {
+                box.style.display = 'none';
+                box1.style.display = 'none';
+            }
+        });
+</script>
+<script src="./Healthcare_files/secureAnonymousFramework"></script><script type="text/javascript" charset="utf-8" async="" src="./Healthcare_files/button.7db838345f9545c91ea4497f64abb814.js.download"></script></head>
+<div id="BodyMaster" style="font-family:Sans-Serif;">
+    <form method="post" action="http://technopak.com/Technopak-Healthcare.aspx" id="Form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTIzNjUwNTQ2MQ9kFgJmD2QWAgIBD2QWAgIDDxYCHgdjb250ZW50BeAEaGVhbHRoY2FyZSBjb25zdWx0aW5nIGZpcm1zLCBoZWFsdGhjYXJlIGNvbnN1bHRpbmcsIGhlYWx0aGNhcmUgc3RyYXRlZ3kgY29uc3VsdGluZywgdG9wIGhlYWx0aGNhcmUgY29uc3VsdGluZyBmaXJtcywgaGVhbHRoY2FyZSBtYW5hZ2VtZW50IGNvbnN1bHRhbnRzLCBoZWFsdGhjYXJlIG1hbmFnZW1lbnQgY29uc3VsdGluZyBmaXJtcywgaGVhbHRoY2FyZSBjb25zdWx0aW5nIGNvbXBhbmllcywgaGVhbHRoY2FyZSBidXNpbmVzcyBjb25zdWx0aW5nLCBoZWFsdGhjYXJlIGJ1c2luZXNzIGNvbnN1bHRhbnRzLCBoZWFsdGhjYXJlIHJlc2VhcmNoIGNvbnN1bHRpbmcsIGhlYWx0aGNhcmUgY29uc3VsdGFuY3kgc2VydmljZXMsIGNvbnN1bHRpbmcgZmlybXMgaGVhbHRoY2FyZSwgaGVhbHRoY2FyZSBjb25zdWx0YW5jeSwgbWFuYWdlbWVudCBjb25zdWx0aW5nIGhlYWx0aGNhcmUsIGhlYWx0aGNhcmUgY29uc3VsdGluZyBjb21wYW5pZXMsIGhlYWx0aGNhcmUgY29uc3VsdGFudHMgaW4gaW5kaWEsIGhlYWx0aGNhcmUgbWFuYWdlbWVudCwgbGlzdCBvZiBoZWFsdGhjYXJlIGNvbnN1bHRpbmcgY29tcGFuaWVzLCBoZWFsdGhjYXJlIGNvbnN1bHRpbmcgY29tcGFuaWVzIGxpc3RkZHVtOmO7gF/yqiRY85+H5lFSslpjwqVVSRHyr/WtzCDr">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8FA55F40">
+</div>
+
+<div align="center" class="main">
+
+    <script type="text/javascript">
+        function managing() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Human Capital Management";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<p>Human capital management entails a variety of functions, which include  determining your staffing needs, handling performance issues, training  employees, etc. Our team of expert consultants assists you with: </p><ul>  <li> <strong>Workforce  Planning</strong></li></ul><p>To ensure that your  organization has suitable access to talent for future growth, we assist you with: </p><ul>  <ul>    <li>• Analyzing workforce  requirements</li>    <li>• Developing  an organizational structure</li>    <li>• Modeling physician  engagement</li>    <li>• Strategizing employee retention </li>    <li>• Developing  job descriptions</li>    <li>• Designing remuneration  packages</li>    <li><br> <strong>Hiring  and Training Assistance</strong></li>  </ul></ul><p>Finding and training the right employees so as to  enhance your business performance can be an arduous task. To make the hiring  and training process easier for you, we provide assistance in: </p><ul>  <ul>    <li>• Hiring top  management </li>    <li>• Screening  specialists for medical, paramedical, and managerial categories</li>    <li>• Defining training methodologies and curriculum</li>    <li>• Defining criteria for evaluation of outcomes and e-learning-based tools </li>    <li>• Forming training cells and co-ordinating their activities</li>";
+        }
+        function revenue() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Revenue Management";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<p>Organizations are highly focused on improving  their operational performance and usually trim costs by restructuring operations and tightening supply chains. However,  the most important effective method is raising asset turnover, as asset productivity holds more  potential than cost cutting, and delivers an immediate impact on shareholder value. In this regard, our team can assist you with: </p><ul>  <li>• Optimizing revenues</li>  <li>• Driving cost  leadership</li>  <li>• Creating  shareholder value</li>  <li>• Delivering organic and  profitable growth</li>  <li>• Strategizing capital allocation </li></ul><ul>  <li>• Restructuring revenue model </li></ul><p>An appropriate investment on processes, technology, and staff can help a healthcare facility carve out a niche within the healthcare sector. Hospitals strive to maximize the RoI on all resources and determine the best rates  for future patient care. We assist you with strategies for effective <strong>Revenue  Maximization</strong>.<br><br> To leverage your strengths and effectively implement  your processes, we create expert <strong>service line strategies</strong> and <strong>cost restructuring methodologies</strong>. Our aim is to develop recommendations for you that allow for <strong>service optimization</strong> and <strong>process improvement</strong> across your organization. </p><ul>  <li><strong> Strategizing Pricing</strong></li></ul><p>The healthcare sector needs to develop pricing  strategies without compromising service quality. In the present  scenario, the increase in costs is outpacing the increase in revenues. Irrespective of whether it is a profit-making organization or a non-profit organization, pricing strategies form a critical component for a healthcare  facility. For smoother financial management of hospitals, we assist  you with various pricing strategies like </p><ul>  <ul>    <li>• Competition-based Pricing</li>    <li>• Cost-plus  Pricing</li>    <li>• Value-based Pricing</li>    <li>• Price Sensitivity</li>  </ul></ul>";
+        }
+        function quality() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Quality Management"; document.getElementById("cnt_textarea_r3").innerHTML = "<p>Organizations need to focus on the quality of their products and services as well as on the means to achieve this. Quality management encompasses quality measurement, improvement, accreditation and certification, and establishing clinical protocols and implementing evidence-based practice. The main motive of quality management within the healthcare sector is to improve the quality of patient care in hospitals. At Technopak, we understand the necessity of quality management and enhancement, and consequently, our services include: <br><br>•<strong> Quality Measurement</strong>: To provide both quantitative and qualitative information along every dimension, we benchmark your business performance against national as well as international standards, create balanced scorecards, study customer feedback, and perform e-measurement of services<br><br>•<strong> Quality Improvement</strong>: To improve the quality of services and processes, we identify and employ strategies like Six Sigma. We also assist in continually enhancing project and program sustenance <br><br>•<strong> Quality Accreditation and Certification</strong>: To help construct critical pathways and a wide range of care guidelines, we aid your readiness in obtaining NABH and JCI accreditation, and ISO certification <br><br>•<strong> Clinical Protocols and Evidence-based Practice</strong>: We guide you with decisions regarding the choosing and implementation of the most suitable evidence-based practice for your organization </p>";
+        }
+        function transaction() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Transaction Advisory"; document.getElementById("cnt_textarea_r3").innerHTML = "<p>The competitive and  dynamic nature of the corporate world often results in mergers & acquisitions (M&As). Our objective is to guide you through successful M&As by developing healthy relationships. In this respect, we provide you assistance with: </p><ul>  <li>• Evaluating and selecting partners</li>  <li>• Forming/affiliating with networks</li>  <li>• Creating group practices</li>  <li>• Divesting assets</li></ul><p>Due-diligence must be conducted in order to evaluate a target business for acquisition or debt/equity funding. Our team of professional consultants assists you with: </p><ul>  <li>• Conducting operational and financial due-diligence of suitable healthcare providers</li>  <li>• Assessing financial projections and  plans</li></ul>";
+        }
+
+        function branding() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Branding and Positioning";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<p>It is important for every organization to create an identity in the minds of its target customers.  We help healthcare ventures develop this distinct image through dynamic marketing strategies. The services we offer in this  domain include: </p><ul>  <li>• Strategizing the organization's position  in the market </li>  <li>• Planning budgets</li>  <li>• Developing an action plan to attract and  retain customers</li></ul><br><p>Our consultants offer you customized branding solutions, including: </p><ul>  <li>• Envisioning a brand for your business</li>  <li>• Designing brand communication</li>  <li>• Implementing and managing your brand</li></ul>";
+        }
+        function marketassessment() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Market Assessment"; document.getElementById("cnt_textarea_r3").innerHTML = "<p>For any given location, healthcare services need to be customized as per the locale and the  populace. Our specialized solutions help you understand local market trends and recognize the feasibility of your business proposal. To help you deliver  a consistent business performance, we analyze patient needs, market share,  utilization shifts, geographical barriers, travel patterns, and competitive aspects. <br><br>  Based on our expertise in  analyzing the competitiveness of the market and experience with providers and  paying clients, we offer such client-oriented services as: </p><ul>  <li>• Forecasting market trends</li>  <li>• Reviewing medical business</li>   <li>• Envisioning solutions for network development</li>  <li>• Analyzing competitive scenarios</li></ul>";
+        }
+        function strategy() {
+            document.getElementById("cnt_textarea_img").innerHTML = "Business Strategy ";
+            document.getElementById("cnt_textarea_r3").innerHTML = "<p>Our services in the area of business strategy span planning as well as implementation, for both existing ventures and those that are planning to enter the healthcare market. Our expert consultants study the extant competition in the healthcare market and assist you in strategizing the way-forward for your organization. Further, we help identify the competitive advantages. Specifically, we facilitate: <br><br><ul><li>• Planning entry into new markets </li><li>• Mapping the competition</li><li>• Visualizing expansion into new service lines/geographies</li> <li>• Strategizing the expansion of/additions to clinical service lines </li> <li>• Framing a competitive strategy</li> <ul><li>• Developing the organization's vision </li>    <li>• Identifying competitive advantages</li><li>• Directing short-term and long-term strategies</li>    <li>• Assisting in planning and implementation</li>  </ul>  <li>• Modeling the organization's financial trajectory</li>  <li>• Prioritizing resources and planning strategic capital</li></ul></p> ";
+        }
+        function ClientList() {
+            document.getElementById("cnt_textarea_r1").style.display = "none";
+            document.getElementById("cnt_textarea_r2").style.display = "none";
+            document.getElementById("cnt_textarea_r3").innerHTML = document.getElementById("DivClientList").innerHTML;
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+        function Team() {
+            document.getElementById("cnt_textarea_r1").style.display = "none";
+            document.getElementById("cnt_textarea_r2").style.display = "none";
+            document.getElementById("cnt_textarea_r3").innerHTML = document.getElementById("DivHealthcareTeam").innerHTML;
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+        function IndustrySegment() {
+            document.getElementById("cnt_textarea_r1").style.display = "none";
+            document.getElementById("cnt_textarea_r2").style.display = "none";
+            document.getElementById("cnt_textarea_r3").innerHTML = document.getElementById("DivIndustrySegment").innerHTML;
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+        function Resources() {
+            document.getElementById("cnt_textarea_r1").style.display = "none";
+            document.getElementById("cnt_textarea_r2").style.display = "none";
+            document.getElementById("cnt_textarea_r3").innerHTML = document.getElementById("DivResources").innerHTML;
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script type="text/javascript" src="./Healthcare_files/1.js.download"></script>
+    <script type="text/javascript" src="./Healthcare_files/slides.min.jquery.js.download"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#slides').slides({
+                preload: true,
+                preloadImage: 'img/loading.gif',
+                play: 3000,
+                pause: 1000,
+                hoverPause: true,
+                animationStart: function (current) {
+                    $('.caption1').animate({
+                        top: 258
+                    }, 200);
+                    $('.caption').animate({
+                        top: 765
+                    }, 200);
+                },
+                animationComplete: function (current) {
+                    $('.caption1').animate({
+                        top: 258
+                    }, 200);
+                    $('.caption').animate({
+                        top: 765
+                    }, 200);
+                },
+                slidesLoaded: function () {
+                    $('.caption1').animate({
+                        top: 258
+                    }, 200);
+                    $('.caption').animate({
+                        top: 765
+                    }, 200);
+                }
+            });
+        });
+    </script>
+    <link href="./Healthcare_files/tpkHealthcare.css" rel="stylesheet" type="text/css">
+    <div id="cnt_outer" style="padding-top:200px; font-family:Sans-Serif;">
+        <div id="cnt">
+            <div id="cnt_s" class="fl">
+            </div>
+            <div id="cnt_image" class="fl">
+                <div class="caption" align="left" style="margin-top: -28px; margin-left: 0px; height: 125px; top: 765px;">
+                    <ul>
+                        <li style="padding-top: 2px;">| &nbsp;<a href="javascript:Resources();">Resources</a></li>
+                        <li>| &nbsp;<a href="http://technopak.com/Files/Technopak-Healthcare-Credentials-AUG-2017.pdf">Credentials</a></li>
+                        <li>| &nbsp;<a href="javascript:ClientList();">Client List</a></li>
+                        <li>| &nbsp;<a href="javascript:Team();">Technopak's Healthcare Team</a></li>
+                        <li>| &nbsp;<a href="javascript:IndustrySegment();">Industry Segments We Serve</a></li>
+                    </ul>
+                </div>
+                <div id="container">
+                    <div id="example">
+                        <div id="slides">
+                            <div class="slides_container" style="overflow: hidden; position: relative; display: block;">
+                                <div class="slides_control" style="position: relative; width: 1350px; height: 661px; left: -450px;"><div class="slide" style="position: absolute; top: 0px; left: 450px; z-index: 0; display: none;">
+                                    <img border="0" src="./Healthcare_files/HealthcareSlide1.jpg" width="450" height="665" alt="Slide 1"></div><div class="slide" style="position: absolute; top: 0px; left: 450px; z-index: 5; display: block;">
+                                    <img border="0" src="./Healthcare_files/HealthcareSlide2.jpg" width="450" height="665" alt="Slide 2"></div><div class="slide" style="position: absolute; top: 0px; left: 450px; z-index: 0; display: none;">
+                                    <img border="0" src="./Healthcare_files/HealthcareSlide3.jpg" width="450" height="665" alt="Slide 3"></div></div>
+
+
+                            </div>
+                        <ul class="pagination"><li class=""><a href="http://technopak.com/Technopak-Healthcare.aspx#0">1</a></li><li class="current"><a href="http://technopak.com/Technopak-Healthcare.aspx#1">2</a></li><li class=""><a href="http://technopak.com/Technopak-Healthcare.aspx#2">3</a></li></ul></div>
+                    </div>
+                </div>
+            </div>
+            <div id="cnt_textarea" class="fl">
+                <div id="cnt_textarea_r1" class="fl">
+                    <table width="500" border="0">
+                        <tbody><tr>
+                            <td colspan="2">
+                                <ul>
+                                    <li class="size"><h1 style="font-size:14px; font-weight:bold; font-family:Sans-Serif;">SERVICES WE OFFER IN HEALTHCARE</h1></li></ul>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="width: 250; vertical-align: top; font-family:Sans-Serif; font-size:12px; padding-right: 30px;">
+                                <ul>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:strategy()">BUSINESS STRATEGY</a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:marketassessment()">MARKET ASSESSMENT</a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:branding()">BRANDING AND POSITIONING</a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:transaction()">TRANSACTION ADVISORY</a></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </td>
+                            <td style="width: 250; padding-left: 30px; font-family:Sans-Serif; font-size:12px; vertical-align: top; padding-top: 0px;
+                                border-left: 1px dotted;">
+                                <ul>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:quality()">QUALITY MANAGEMENT</a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:revenue()">REVENUE MANAGEMENT</a></li>
+                                    <li style="list-style-type:inherit; font-size:12px; font-family:Sans-Serif;"><a href="javascript:managing()"> HUMAN CAPITAL MANAGEMENT</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                    <br>
+                </div>
+                <div id="cnt_textarea_r2" class="fl" style="font-family:Sans-Serif;">
+
+                    <div id="cnt_textarea_img" style="color: #428269; font-size: 35px; text-align: left;
+                        float: left; padding-left: 20px; padding-top:15px; font-family:Sans-Serif; vertical-align: middle;">
+                        Healthcare</div>
+                </div>
+                <div id="cnt_textarea_r3" class="fl">
+                    <p style="font-family:Sans-Serif; font-size:12px">
+                        There is much need, in these highly competitive times, for healthcare providers
+                        to constantly upgrade their offerings and service mix. This not only helps them
+                        stay relevant, but also ensures that patients remain confident about the provider’s
+                        capacity to counter even the most novel of challenges. Thus, there is a need for
+                        providers to stay abreast of current technologies, innovations, and knowhow, and
+                        redraft/ fine-tune their existing operational strategies as required.
+                        <br>
+                        <br>
+                        Again, it is critical that organizations undertaking such strategy revaluation and
+                        implementation measures, including a revision of their brand positioning and market
+                        assessment, do not lose track of their current responsibilities in terms of their
+                        performance. Such focus is especially necessary given the current trend of uncertainty.
+                        <br>
+                        <br>
+                        Technopak’s Healthcare team is dedicated to assisting healthcare clients manage
+                        their businesses and provide innovative solutions with focus on short-term
+                        as well as long-term results. Our expertise in the field of strategy development
+                        and implementation has allowed us to execute varied assignments
+                        across the entire healthcare spectrum, covering varied geographies.
+                        <br>
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="DivClientList" style="display: none; font-family:Sans-Serif;" class="fl">
+        <table style=" font-family:Sans-Serif; font-size:13px; color:Black">
+                        <tbody><tr>
+                            <td colspan="3">
+                                <ul>
+                                    <li align="center"><h1 style="font-size:18px; font-weight:bold; text-decoration:underline; color:White; font-family:Sans-Serif;">
+                                    Client List - Healthcare</h1>
+                                    </li><li>&nbsp;</li>
+                                    </ul>
+                            </td>
+                        </tr>
+                   <tr>
+                   <td width="210" style="vertical-align: top; font-family:Sans-Serif; display: inline-block; font-size:12px; color:white">
+
+                                   <ul style="line-height:25px; display: inline-block; vertical-align:top; color:white;">
+
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Aditya Birla Group</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">AIPL Ambuja</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Alchemist Hospitals</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Althea Life Sciences Ltd.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Amandeep Hospital</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Amina Bie Charitable Trust</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Apollo Health &amp; Lifestyle Ltd.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Apollo Pharmacy</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Arvind Mills</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Asian Development Bank</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Becton Dickinson India Pvt. Ltd.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Biotavia Labs Pvt. Ltd.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">BUPA Piramal Healthcare Ltd.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">C&amp;C Alpha Group</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Catholic Bishops' Conference of India</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Chaitanya Projects Pvt. Ltd.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Columbia Asia Hospital</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Dr. Lal Pathlabs</a></li>
+
+                                    </ul>
+                                    </td>
+
+                                    <td width="230" style="border-left:dotted 1px White;  padding-left:10px; vertical-align: top; padding-top: 0px; display: inline-block;  font-family:Sans-Serif; font-size:12px">
+                                   <ul style="line-height:25px; display: inline-block; vertical-align:top; color:white;">
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Elbit India Imaging</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Elbit India Healthcare</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">GE Commercial Finance</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">GE Healthcare</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">GMR</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Godrej Properties</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Gujarmal Modi Hospital</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Guru Nanak Hospital &amp; Research Center</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Hospital Corporation of America</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">ICICI Venture</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">IL&amp;FS</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">International Finance Corp.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Ivy Apple Blossom</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Kishinchand Chellaram (India) Pvt. Ltd.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">KOS Group</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Kurinji Super Specialty Hospital</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Max Healthcare</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Metro Hospitals &amp; Heart Institute</a></li>
+
+
+                                </ul>
+
+
+                            </td>
+
+                            <td style="border-left:dotted 1px White;  padding-left:10px; vertical-align: top; padding-top: 0px; display: inline-block;  font-family:Sans-Serif; font-size:12px">
+                                   <ul style="line-height:25px; display: inline-block; vertical-align:top; color:white;">
+                                   <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">NEC Energy</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Panacea Biotec</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Pratiksha Hospitals</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Prem Hospital, Panipat</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Pushpanjali Crosslay Hospital</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Quest Diagnostics</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">RJ Corp</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Rajiv Gandhi Cancer Institute</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Rakindo Developers Pvt. Ltd.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Ranbaxy Labs</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Raptakos Brett &amp; Co.</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Ritesh Industries</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">S.L. Raheja Hospitals</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">S.S. Innovation</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">SRIMS Holding</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Thuasne Orthopedic</a></li>
+                                    <li><a href="http://technopak.com/Technopak-Healthcare.aspx#">Vasan Healthcare</a></li>
+                                     <li>&nbsp;</li>
+                       </ul></td></tr>
+        </tbody></table>
+    </div>
+<div id="Div1" style="display: none; font-family:Sans-Serif;" class="fl">
+        <table>
+            <tbody><tr>
+                <td>
+                    <h1 style="font-family:Sans-Serif;">
+                        <strong>Team Healthcare<br>
+                            <br>
+                        </strong>
+                    </h1>
+                    <ul style="font-family:Sans-Serif;">
+                        <li><strong>Saloni Nangia</strong><br>
+                            President
+                            <br>
+                            <a href="mailto:saloni.nangia@technopak.com">saloni.nangia@technopak.com</a>
+                            <br>
+                        </li>
+<br>
+
+                    </ul>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <p>
+                        <br>
+                    </p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        <br>
+                    </p>
+                </td>
+                <td style="padding-left: 10px; padding-top: 35px;">
+                    <p>
+                        &nbsp;</p>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    <div id="DivHealthcareTeam" style="display: none; font-family:Sans-Serif;" class="fl">
+        <table>
+            <tbody><tr>
+                <td>
+                    <h1 style="font-family:Sans-Serif; font-size:17px">
+                        <strong>Team Healthcare<br>
+                            <br>
+                        </strong>
+                    </h1>
+                    <ul style="font-family:Sans-Serif; font-size:12px; line-height:15px">
+                        <li><strong>Saloni Nangia</strong><br>
+                            President
+                            <br>
+                            <a href="mailto:saloni.nangia@technopak.com">saloni.nangia@technopak.com</a>
+                            <br>
+                        </li>
+<br>
+
+                    </ul>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <p>
+                        <br>
+                    </p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        <br>
+                    </p>
+                </td>
+                <td style="padding-left: 10px; padding-top: 35px;">
+                    <p>
+                        &nbsp;</p>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    <div id="DivIndustrySegment" style="display: none; font-family:Sans-Serif;" class="fl">
+        <table style="line-height: 25px;">
+            <tbody><tr>
+                <td>
+                    <p>
+                        </p><h1 style="font-family:Sans-Serif;">
+                            <strong>Industry Segments We Serve</strong></h1>
+                    <p></p>
+                    <h1>
+                        &nbsp;</h1>
+                    <ul style="font-family:Sans-Serif; font-size:12px">
+                        <li>• Hospitals and other Healthcare Providers</li>
+                        <li>• Medical Education Providers</li>
+                        <li>• Insurers</li>
+                        <li>• Government Bodies</li>
+                        <li>• Non-Governmental Organizations</li>
+                        <li>• Financial Institutions</li>
+                        <li>• Private Funds</li>
+                        <li>• Information Technology Firms</li>
+                        <li>• Medical Equipment and Device Manufacturers</li>
+                        <li>• Pharmaceutical Firms</li>
+                    </ul>
+                    <p>
+                        <br>
+                    </p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        <br>
+                    </p>
+                </td>
+                <td style="padding-left: 10px; padding-top: 35px;">
+                    <p>
+                        &nbsp;</p>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    <div id="DivResources" style="display: none; font-family:Sans-Serif;" class="fl">
+        <table>
+            <tbody><tr>
+                <td>
+                    <h1 style="font-family:Sans-Serif;">
+                        <strong>Resources</strong></h1>
+                    <br>
+                    <h2style="font-family:sans-serif;">
+                        This section comprises new and archived publications and pieces written by thought
+                        leaders.
+
+                </h2style="font-family:sans-serif;"></td>
+            </tr>
+            <tr>
+                <td>
+
+                    <div style="font-family:Sans-Serif; font-size:13px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px;">
+                            Mother and Child Care</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px;">
+                        Mother and Child care initiatives have fallen short of delivering the results. This is in contrast to trends emerging in the private healthcare sector of India, which promise to impact the quality of outcomes and clinical options available to the Indian consumer. In the absence of a list of successful models that can be replicated for success, care providers are transforming the way they deliver Mother and Child care services in line with new  technology and techniques and to meet expectations of a more evolved Indian consumer.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:13px;">
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=403" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                    <div style="font-family:Sans-Serif; font-size:13px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px;">
+                            Short Stay Medical Centres</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px;">
+                        Although quite prevalent in the developed world, where Short Stay Medical Centres are famous as ambulatory centres, these services are still at a nascent stage in our country but expected to grow at a CAGR of ~15% in
+the next decade. Short Stay Medical Centres offer vast advantages to both patients and providers, and infact such centres require less capital and operational expenditure, and can be made operational in a shorter time span makes them an attractive proposition for corporate healthcare providers.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:13px;">
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=402" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                    <div style="font-family:Sans-Serif; font-size:13px; text-align: justify;
+                        text-decoration: none;">
+                        <b style="font-family:Sans-Serif; font-size:13px;">
+                            Oncology: A Reality Check</b></div>
+                    <p style="font-family:Sans-Serif; font-size:13px;">
+                        Indian health system despite making some significant strides in the recent past is still grappling with dual burden of communicable &amp; non communicable diseases. Cancer disease is one of such non communicable ailments which has crippled the mankind with its catastrophic effect. A quick glance on the quantum of this menace – "Global cancer rates could increase by 50% to 15 million by 2020" is sufficient enough to underline its timorous growth.</p>
+                    <div style="float: right; font-family:Sans-Serif; font-size:13px;">
+                        <a href="http://technopak.com/Technopak-Login.aspx?SNo=401" target="_blank">Download PDF</a>
+                    </div>
+                    <br>
+                    <div style="border-bottom: 1px dotted">
+                    </div>
+                    <br>
+
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+
+        </div>
+
+
+    <table width="100%" align="center" style="height:auto">
+    <tbody><tr>
+    <td>
+    <div width="100%" style="border-top: 1px dotted; margin-top:10px; height: 8px; width:100%">
+    </div>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <div align="center" width="100%" style="font-size: 12px;  font-family:sans-serif; width:100%; height: 34px;">
+    <a href="http://technopak.com/Technopak-TnC.aspx?page=policy">
+            Privacy Policy</a> | <a href="http://technopak.com/Technopak-TnC.aspx?page=terms">Terms and Conditions</a>
+        | <a href="http://technopak.com/ContactUs.aspx">Contact Us</a> | Copyright © 2017 Technopak Advisors
+        Pvt. Ltd. All rights reserved.<br><br>
+        </div>
+    </td>
+    </tr>
+    </tbody></table>
+
+    </form>
+
+<script type="text/javascript">
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-47540252-1', 'technopak.com');
+    ga('send', 'pageview');
+
+</script>
+
+
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="./Healthcare_files/widget_iframe.049716a23792bca881820db70e17250b.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./Healthcare_files/saved_resource.html"></iframe></div>
+{% endblock %}

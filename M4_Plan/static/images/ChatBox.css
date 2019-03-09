@@ -1,0 +1,266 @@
+﻿.ChatBox {
+    color: black;
+    direction: ltr !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-size: medium !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    line-height: 1.4em !important;
+    list-style-type: disc !important;
+    text-align: left;
+    text-decoration: none !important;
+}
+.ChatBox .hover {
+    box-shadow: 0 0 20px #888888 !important;
+}
+.ChatBox .base {
+    bottom: 0;
+    padding-top: 2px;
+    position: fixed !important;
+    right: 15px;
+    width: 209px !important;
+    z-index: 2147483638 !important;
+}
+.ChatBox .baseline {
+    -moz-border-bottom-colors: none !important;
+    -moz-border-left-colors: none !important;
+    -moz-border-right-colors: none !important;
+    -moz-border-top-colors: none !important;
+    background-color: #3C4554 !important;
+    background-image: url("../images/CBArrow.png") !important;
+    background-position: right center !important;
+    background-repeat: no-repeat !important;
+    border-color: #FFFFFF !important;
+    border-image: none !important;
+    border-radius: 8px 8px 0 0 !important;
+    border-style: solid !important;
+    border-width: 3px 3px 2px !important;
+    box-shadow: 0 0 4px #666666 !important;
+    color: #FFFFFF !important;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-size: 13px !important;
+    font-weight: normal !important;
+    line-height: 2.3em !important;
+    margin-top: 1px !important;
+    position: relative !important;
+    text-align: center !important;
+    width: 209px;
+    z-index: 9999 !important;
+}
+.ChatBox .baseline:hover {
+    background-color: #515D72 !important;
+    box-shadow: 0 0 20px #888888 !important;
+    text-decoration: none !important;
+}
+
+.ChatBox dfn{
+    background-attachment: scroll !important;
+    background-color: transparent !important;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat !important;
+    border-radius: 0 0 0 0 !important;
+    border-style: none;
+    border-width: thin !important;
+    bottom: auto;
+    clear: none !important;
+    clip: auto !important;
+    color: #404040 !important;
+    counter-increment: none !important;
+    counter-reset: none !important;
+    cursor: auto !important;
+    direction: inherit !important;
+    float: none !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-size: inherit !important;
+    font-style: inherit;
+    font-variant: normal !important;
+    font-weight: inherit !important;
+    left: auto;
+    letter-spacing: 0 !important;
+    line-height: 1.4em !important;
+    margin: 0;
+    max-height: none !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    min-width: 0 !important;
+    opacity: 1;
+    overflow: visible;
+    padding: 0;
+    position: static;
+    quotes: "" "" !important;
+    text-align: left;
+    text-decoration: inherit !important;
+    text-indent: 0 !important;
+    text-shadow: none !important;
+    text-transform: none !important;
+    top: auto;
+    unicode-bidi: normal !important;
+    vertical-align: baseline !important;
+    visibility: inherit;
+    word-spacing: 0 !important;
+    z-index: auto;
+}
+
+.ChatBox div {
+    font-family: Arial,Helvetica,sans-serif !important;
+}
+.ChatBox input, .ChatBox select {
+    vertical-align: middle !important;
+}
+.ChatBox ul, .ChatBox li {
+    display: block;
+    list-style: none outside none !important;
+}
+.ChatBox .main {
+    padding-top: 10px !important;
+    width: 100% !important;
+}
+.ChatBox .layout {
+    background-color: white !important;
+    border: 1px solid #272D36 !important;
+    border-radius: 5px 5px 0 0 !important;
+    bottom: 0 !important;
+    position: absolute !important;
+    right: 10px !important;
+    width: 250px !important;
+}
+.ChatBox .chatHeader {
+    background: none repeat scroll 0 0 #3C4554 !important;
+    border-radius: 3px 3px 0 0 !important;
+    overflow: hidden !important;
+    padding: 10px 10px 7px !important;
+    position: relative !important;
+}
+.ChatBox .chatHeader .headerImg {
+    display: inline-block !important;
+    margin: 0 10px 0 0 !important;
+}
+.ChatBox .chatHeader .headerImg img {
+    border: 2px solid #EEEEEE !important;
+    border-radius: 5px 5px 5px 5px !important;
+    height: 30px !important;
+    padding: 2px !important;
+    vertical-align: middle !important;
+    width: 30px !important;
+}
+.ChatBox .chatHeader .minimizeSpan {
+    position: absolute !important;
+    right: 6px !important;
+    top: 6px !important;
+}
+.ChatBox .chatHeader .minimizeSpan a:hover {
+    background-color: #677690 !important;
+}
+.ChatBox .chatHeader .headerText {
+    display: inline-block !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    vertical-align: middle !important;
+}
+.ChatBox .chatHeader .headerText span {
+    color: #FFFFFF !important;
+    display: block;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    padding: 0 !important;
+}
+.ChatBox .CBForm .QueryForm {
+    border-radius: 3px 3px 3px 3px !important;
+    margin: 12px 10px 2px !important;
+    padding: 22px 0 12px !important;
+}
+.ChatBox .CBForm .QueryForm dfn {
+    display: block !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    line-height: 1.4em !important;
+    padding: 0 0 18px !important;
+}
+.ChatBox .CBForm .QueryForm ul {
+    margin-bottom: 8px !important;
+}
+.ChatBox .CBForm .QueryForm ul li {
+    margin: 9px 0 0 !important;
+    overflow: hidden !important;
+}
+.ChatBox .CBForm .QueryForm ul li input[type="text"], .ChatBox .CBForm .QueryForm ul li input[type="email"], .ChatBox .CBForm .QueryForm ul li input[type="number"] {
+    -moz-box-sizing: inherit;
+    background: none no-repeat scroll 10px 10px #F3E793 !important;
+    border: 1px solid #C7C7C7;
+    border-radius: 3px 3px 3px 3px !important;
+    color: #797359 !important;
+    font-size: 12px !important;
+    height: auto;
+    line-height: 1 !important;
+    margin: 1px !important;
+    padding: 8px 3% 8px 12% !important;
+    width: 83% !important;
+}
+.ChatBox .CBForm .QueryForm ul li input.name[type="text"], .ChatBox .CBForm .QueryForm ul li input.name[type="email"] {
+    background: url("../images/CBNameBox.png") no-repeat scroll 10px 10px #F3E793 !important;
+}
+.ChatBox .CBForm .QueryForm ul li input.mail[type="text"], .ChatBox .CBForm .QueryForm ul li input.mail[type="email"] {
+    background: url("../images/CBMailBox.png") no-repeat scroll 10px 10px #F3E793 !important;
+}
+.ChatBox .CBForm .QueryForm ul li input[type="text"]:focus, .ChatBox .CBForm .QueryForm ul li input[type="email"]:focus {
+    background-color: #F3E793 !important;
+    border: 1px solid #F1CA7F;
+}
+.ChatBox .CBForm .QueryForm ul li input[type="text"] {
+    background-image: url("../images/CBNameBox.png") !important;
+}
+.ChatBox .CBForm .QueryForm ul li input[type="email"] {
+    background-image: url("../images/CBMailBox.png") !important;
+}
+.ChatBox .CBForm .QueryForm ul li input[type="number"] {
+    background-image: url("../images/CBPhone.png") !important;
+}
+.ChatBox .CBForm .QueryForm ul li textarea {
+    -moz-box-sizing: inherit;
+    background-color: #F3E793 !important;
+    background-image: url("../images/CBMessageBox.png") !important;
+    background-position: 10px 10px !important;
+    background-repeat: no-repeat !important;
+    border: 1px solid #C7C7C7;
+    border-radius: 3px 3px 3px 3px !important;
+    color: #797359 !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-size: 12px !important;
+    height: 32px !important;
+    margin: 1px !important;
+    padding: 8px 3% 8px 12% !important;
+    width: 83% !important;
+}
+.ChatBox .CBForm .QueryForm ul li textarea:focus {
+    background-color: #F3E793 !important;
+    border: 1px solid #F1CA7F;
+}
+.ChatBox .CBForm .QueryForm ul li input.next[type="submit"] {
+    background: none repeat scroll 0 0 #3C4554 !important;
+    border: 0 none !important;
+    border-radius: 3px 3px 3px 3px !important;
+    color: #FFFFFF !important;
+    cursor: pointer !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    height: 30px !important;
+    width: 100% !important;
+}
+.ChatBox .CBForm .QueryForm ul li input.next[type="submit"]:hover {
+    background: none repeat scroll 0 0 #515D72 !important;
+}
+#ChatBox_popup {
+    bottom: 0;
+    margin: 0 10px !important;
+    position: fixed !important;
+}
+.btnMinimize {
+    background: url("../images/CBDownArrow.png") no-repeat !important;
+    display: inline-block !important;
+    background-position: 0 0 !important;
+    height: 20px !important;
+    width: 20px !important;
+    margin-right: 5px;
+    margin-top: 5px;
+}
